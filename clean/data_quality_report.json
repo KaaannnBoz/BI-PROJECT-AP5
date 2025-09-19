@@ -1,0 +1,14 @@
+{
+  "nb_lignes_sortie": 297,
+  "compte_publie": {
+    "True": 109,
+    "False": 101,
+    "NULL": 87
+  },
+  "dates_vides": {
+    "date_naissance": 0,
+    "date_embauche": 89,
+    "stage_debut": 95,
+    "stage_fin": 95
+  }
+}
