@@ -1,0 +1,298 @@
+id_template,annee,nom,prenom,date_naissance,nationalite,nom_ecole,stage_pays,stage_entreprise,stage_debut,stage_fin,nom_projet,description,publier,matieres
+10,2015,Renaud,Renée,1995-03-14,Haïti,Institut Supérieur,Mexique,Hamon,2015-02-28,2015-05-12,Disintermediate plug-and-play eyeballs,Oeil gauche sortir respect obéir saint clair.,True,Chimie; Économie
+29,2016,Renaud,Renée,1995-03-14,Haïti,Institut Supérieur,Vietnam,Pruvost,2016-01-18,2016-04-09,Evolve out-of-the-box architectures,Bientôt anglais dimanche jouer petit chaleur point.,True,Chimie; Économie; Littérature; Mathématiques; Philosophie
+58,2017,Renaud,Renée,1995-03-14,Haïti,Institut Supérieur,Gambie,Cordier,2017-06-04,2017-09-06,Exploit distributed applications,Vérité nous relation fixe réalité tête.,True,Biologie; Chimie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie; Physique
+88,2018,Renaud,Renée,1995-03-14,Haïti,Institut Supérieur,Irak,Turpin Royer S.A.,2018-03-13,2018-08-12,Synthesize integrated info-mediaries,Chaîne étouffer quarante jambe seul tandis que ceci.,True,Économie; Littérature; Mathématiques; Physique
+133,2019,Renaud,Renée,1995-03-14,Haïti,Institut Supérieur,,,,,,,,Informatique
+174,2020,Renaud,Renée,1995-03-14,Haïti,Institut Supérieur,Lettonie,Joseph S.A.,2020-06-24,2020-09-01,Architect scalable infrastructures,Envelopper très pouvoir marier.,True,Philosophie
+8,2015,le Roux,Richard,1996-11-22,Saint-Marin (Rép. de),Institut Supérieur,Palau,Maury Ledoux S.A.,2015-06-13,2015-09-29,,,,Chimie; Histoire; Littérature; Mathématiques; Philosophie
+30,2016,le Roux,Richard,1996-11-22,Saint-Marin (Rép. de),Institut Supérieur,,,,,,,,Économie; Informatique; Littérature
+55,2017,le Roux,Richard,1996-11-22,Saint-Marin (Rép. de),Institut Supérieur,Biélorussie,Leleu,2017-01-16,2017-03-09,Architect value-added e-services,Entier colère avouer tirer quand hôtel.,True,Biologie; Chimie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie
+93,2018,le Roux,Richard,1996-11-22,Saint-Marin (Rép. de),Institut Supérieur,Kirghizistan,Aubert Dubois et Fils,2018-05-13,2018-08-04,Mesh synergistic bandwidth,Quitter croix vieillard nombreux vieux.,True,Biologie; Chimie; Économie; Informatique; Mathématiques; Physique
+123,2019,le Roux,Richard,1996-11-22,Saint-Marin (Rép. de),Institut Supérieur,Ukraine,Baron et Fils,2019-04-19,2019-08-31,Brand back-end synergies,Coin souhaiter sac marché mine.,False,Biologie; Chimie; Économie; Histoire; Littérature
+179,2020,le Roux,Richard,1996-11-22,Saint-Marin (Rép. de),Institut Supérieur,,,,,Matrix collaborative paradigms,Désespoir travers crier considérer premier deux cesse.,False,Économie
+94,2018,Gaillard,Robert,1994-11-07,Ukraine,Institut Supérieur,,,,,,,,Littérature
+131,2019,Gaillard,Robert,1994-11-07,Ukraine,Institut Supérieur,Albanie,Descamps,2019-01-17,2019-03-26,Iterate frictionless content,Race absence leur désigner type toit.,True,Chimie
+177,2020,Gaillard,Robert,1994-11-07,Ukraine,Institut Supérieur,Luxembourg,Bourgeois,2020-03-07,2020-07-06,Monetize clicks-and-mortar mindshare,Cuisine visible somme vous plaire plein.,False,Biologie; Chimie; Économie; Histoire; Littérature; Mathématiques; Philosophie
+213,2021,Gaillard,Robert,1994-11-07,Ukraine,Institut Supérieur,,,,,Morph 24/365 technologies,Ruine espérer ventre officier lumière sac violent.,False,Informatique; Littérature; Mathématiques; Physique
+243,2022,Gaillard,Robert,1994-11-07,Ukraine,Institut Supérieur,Somalie,Antoine SARL,2022-03-09,2022-04-20,Embrace killer synergies,Pas suffire fruit amener.,True,Biologie; Chimie; Économie; Histoire; Informatique; Mathématiques
+267,2023,Gaillard,Robert,1994-11-07,Ukraine,Institut Supérieur,Suriname,Rémy,2023-05-28,2023-07-12,,,,Histoire; Informatique; Littérature
+285,2024,Gaillard,Robert,1994-11-07,Ukraine,Institut Supérieur,,,,,,,,Physique
+18,2015,Leduc,Louise,1995-04-30,Papouasie-Nouvelle-Guinée,École Polytechnique,Guinée,Léger SARL,2015-04-26,2015-06-17,Enhance front-end mindshare,Enfin pied jour soir.,False,Chimie
+43,2016,Leduc,Louise,1995-04-30,Papouasie-Nouvelle-Guinée,École Polytechnique,Vierges (Îles),Bernard,2016-02-22,2016-03-27,Innovate strategic e-business,Souvenir faim de unique mien absolu lutter.,True,Biologie; Chimie; Informatique; Littérature; Mathématiques; Physique
+69,2017,Leduc,Louise,1995-04-30,Papouasie-Nouvelle-Guinée,École Polytechnique,Botswana,Bruneau S.A.,2017-06-21,2017-12-14,Exploit intuitive applications,Poser joie bord rose.,True,Économie; Histoire; Informatique; Littérature; Philosophie; Physique
+105,2018,Leduc,Louise,1995-04-30,Papouasie-Nouvelle-Guinée,École Polytechnique,Luxembourg,Fleury SARL,2018-04-01,2018-07-07,Envisioneer leading-edge synergies,Image apercevoir eau ministre aide jamais son été.,True,Informatique; Physique
+149,2019,Leduc,Louise,1995-04-30,Papouasie-Nouvelle-Guinée,École Polytechnique,,,,,Embrace compelling e-services,Chair classe menacer tirer trace son.,True,Chimie; Économie; Informatique; Littérature; Physique
+7,2015,Barbier,Hélène,2001-06-20,Venezuela,Institut Supérieur,Laos,Pereira,2015-03-23,2015-05-20,,,,Philosophie
+31,2016,Barbier,Hélène,2001-06-20,Venezuela,Institut Supérieur,,,,,,,,Économie; Histoire
+60,2017,Barbier,Hélène,2001-06-20,Venezuela,Institut Supérieur,,,,,Transition viral vortals,Mensonge essuyer promener peu.,False,Chimie; Économie; Histoire; Informatique; Littérature; Physique
+95,2018,Barbier,Hélène,2001-06-20,Venezuela,Institut Supérieur,,,,,Reinvent next-generation convergence,Quant À de surveiller y bas maintenant.,False,Chimie; Économie; Histoire; Littérature; Mathématiques
+134,2019,Barbier,Hélène,2001-06-20,Venezuela,Institut Supérieur,,,,,Architect proactive models,Devant haut empêcher revenir sorte preuve traverser.,True,Histoire
+84,2018,Didier,Noémi,1997-03-29,Croatie,Institut Supérieur,Maldives (Îles),Teixeira Bourgeois SARL,2018-06-18,2018-12-10,Embrace revolutionary markets,Plutôt maison en fixe contenir social reculer.,False,Histoire; Littérature; Philosophie
+126,2019,Didier,Noémi,1997-03-29,Croatie,Institut Supérieur,Liban,Delmas,2019-04-20,2019-08-05,Cultivate collaborative roi,Effacer inquiéter face blond flot.,True,Chimie; Histoire; Littérature; Mathématiques; Philosophie
+172,2020,Didier,Noémi,1997-03-29,Croatie,Institut Supérieur,Papouasie-Nouvelle-Guinée,Salmon,2020-02-05,2020-05-18,Enable out-of-the-box e-tailers,Grâce action comme liberté yeux.,False,Chimie; Mathématiques
+212,2021,Didier,Noémi,1997-03-29,Croatie,Institut Supérieur,Rwanda,Guérin,2021-03-07,2021-05-09,,,,Biologie; Chimie; Économie; Informatique; Physique
+240,2022,Didier,Noémi,1997-03-29,Croatie,Institut Supérieur,Timor,Guyot,2022-02-24,2022-06-14,,,,Chimie; Littérature; Mathématiques; Physique
+114,2019,Albert,Maryse,2004-02-17,Liechtenstein,Université Lumière,Israël,Legendre Peron S.A.S.,2019-04-14,2019-08-16,,,,Informatique
+158,2020,Albert,Maryse,2004-02-17,Liechtenstein,Université Lumière,Maldives (Îles),Brunet S.A.R.L.,2020-01-12,2020-07-05,,,,Chimie
+202,2021,Albert,Maryse,2004-02-17,Liechtenstein,Université Lumière,Égypte,Aubert Blot SARL,2021-02-11,2021-05-28,Seize ubiquitous e-business,Chaque certain claire dos.,False,Chimie; Économie; Histoire; Mathématiques; Physique
+232,2022,Albert,Maryse,2004-02-17,Liechtenstein,Université Lumière,Christmas (Île),Jacques S.A.,2022-06-13,2022-08-11,Cultivate dot-com technologies,Reposer bruit autrefois rôle inviter occasion angoisse.,True,Biologie; Chimie; Économie; Informatique; Mathématiques; Philosophie
+256,2023,Albert,Maryse,2004-02-17,Liechtenstein,Université Lumière,Colombie,Gautier S.A.,2023-01-28,2023-06-14,Syndicate end-to-end web services,Vendre perdu servir.,False,Biologie; Économie
+1,2015,Mercier,Étienne,2001-11-03,Saint-Kitts et Nevis,Université Lumière,Estonie,Durand S.A.,2015-06-07,2015-08-16,Reinvent innovative portals,Confier intérieur interrompre mal général agiter.,False,Économie; Histoire; Philosophie
+25,2016,Mercier,Étienne,2001-11-03,Saint-Kitts et Nevis,Université Lumière,,,,,,,,Physique
+50,2017,Mercier,Étienne,2001-11-03,Saint-Kitts et Nevis,Université Lumière,,,,,Leverage efficient e-commerce,Nord bouche reconnaître si toute même.,False,Biologie; Histoire; Littérature; Physique
+80,2018,Mercier,Étienne,2001-11-03,Saint-Kitts et Nevis,Université Lumière,,,,,Engage web-enabled e-markets,Soldat rejoindre rassurer juste notre silence colère.,False,Biologie; Chimie; Histoire; Informatique; Littérature; Mathématiques; Physique
+111,2019,Mercier,Étienne,2001-11-03,Saint-Kitts et Nevis,Université Lumière,Jamaïque,Allain Vaillant S.A.S.,2019-06-16,2019-12-11,Repurpose dynamic architectures,Usage hiver précipiter quartier avoir noire cour.,False,Économie; Histoire
+165,2020,Mercier,Étienne,2001-11-03,Saint-Kitts et Nevis,Université Lumière,,,,,Grow innovative channels,Seconde mari certain présent pièce.,True,Économie; Philosophie
+116,2019,Bernard,Geneviève,2000-03-26,Vanuatu,Université Lumière,Bahamas,Ribeiro,2019-05-21,2019-08-25,Empower extensible e-services,Début direction palais seconde éloigner.,True,Biologie; Littérature
+156,2020,Bernard,Geneviève,2000-03-26,Vanuatu,Université Lumière,Jordanie,Clément Pasquier SARL,2020-04-16,2020-10-02,,,,Biologie; Chimie; Mathématiques
+206,2021,Bernard,Geneviève,2000-03-26,Vanuatu,Université Lumière,,,,,,,,Biologie; Économie; Informatique; Mathématiques
+233,2022,Bernard,Geneviève,2000-03-26,Vanuatu,Université Lumière,,,,,Evolve distributed applications,Faible partager jambe madame.,True,Biologie; Économie; Histoire; Informatique; Littérature; Mathématiques
+263,2023,Bernard,Geneviève,2000-03-26,Vanuatu,Université Lumière,,,,,Morph rich platforms,Paraître ici lien drame malade.,True,Biologie; Économie
+279,2024,Bernard,Geneviève,2000-03-26,Vanuatu,Université Lumière,Ghana,Wagner SA,2024-04-18,2024-08-13,,,,Chimie; Économie; Mathématiques; Philosophie
+17,2015,Gay,Anaïs,2004-08-09,Botswana,École Polytechnique,Taiwan,Martin et Fils,2015-02-13,2015-08-10,,,,Biologie; Informatique; Mathématiques
+41,2016,Gay,Anaïs,2004-08-09,Botswana,École Polytechnique,Myanmar,Boyer et Fils,2016-05-13,2016-09-07,,,,Biologie; Chimie; Économie; Informatique; Littérature; Mathématiques; Philosophie; Physique
+72,2017,Gay,Anaïs,2004-08-09,Botswana,École Polytechnique,,,,,Scale 24/7 e-business,Intérieur coup profiter pénétrer cercle engager envelopper.,True,Biologie; Chimie; Économie; Mathématiques; Philosophie
+104,2018,Gay,Anaïs,2004-08-09,Botswana,École Polytechnique,Îles Mineures Éloignées des États-Unis,Brunet,2018-03-08,2018-08-23,Implement dot-com niches,Barbe confondre pont guerre prochain.,False,Biologie; Informatique; Littérature; Philosophie; Physique
+150,2019,Gay,Anaïs,2004-08-09,Botswana,École Polytechnique,,,,,Architect intuitive portals,Expression claire groupe large souvenir colon peine.,True,Économie
+186,2020,Gay,Anaïs,2004-08-09,Botswana,École Polytechnique,République tchèque,Perret Merle et Fils,2020-06-04,2020-10-08,Aggregate e-business niches,Million désespoir frapper suite.,False,Informatique; Mathématiques
+191,2020,Thomas,Pierre,1995-12-03,Équateur,École Polytechnique,Saint Pierre et Miquelon,Leleu,2020-04-01,2020-09-20,,,,Littérature
+222,2021,Thomas,Pierre,1995-12-03,Équateur,École Polytechnique,France,Sauvage,2021-04-21,2021-07-27,Repurpose extensible infrastructures,Bord salle fumée préférer passer leur.,True,Chimie; Économie; Informatique; Littérature; Physique
+252,2022,Thomas,Pierre,1995-12-03,Équateur,École Polytechnique,Sri Lanka,Weber,2022-04-03,2022-08-28,Leverage magnetic portals,Nouveau pourquoi offrir portier source commencer.,True,Biologie; Chimie; Mathématiques
+270,2023,Thomas,Pierre,1995-12-03,Équateur,École Polytechnique,Botswana,Maillot S.A.,2023-01-28,2023-04-08,,,,Biologie; Économie; Histoire; Littérature
+294,2024,Thomas,Pierre,1995-12-03,Équateur,École Polytechnique,Anguilla,Nicolas S.A.S.,2024-04-24,2024-09-08,Embrace rich convergence,Ennemi exposer annoncer vieil arrêter être sentiment.,True,Biologie; Économie; Littérature; Philosophie
+9,2015,Rey,Isaac,1997-08-25,Panama,Institut Supérieur,Mexique,Becker,2015-05-31,2015-09-08,Engage customized eyeballs,Non tempête beaux trait.,False,Biologie; Économie; Informatique; Mathématiques
+32,2016,Rey,Isaac,1997-08-25,Panama,Institut Supérieur,,,,,Cultivate distributed mindshare,Voix nombreux voile livre complètement distance subir naturellement.,False,Biologie; Économie; Informatique; Littérature; Philosophie
+54,2017,Rey,Isaac,1997-08-25,Panama,Institut Supérieur,Estonie,Fernandes Carre SA,2017-02-19,2017-08-01,,,,Chimie; Économie; Histoire; Informatique; Mathématiques; Physique
+91,2018,Rey,Isaac,1997-08-25,Panama,Institut Supérieur,Libéria,Potier,2018-05-06,2018-08-18,Architect vertical architectures,Rue mieux croix tenter autorité aucun marche.,True,Littérature; Physique
+124,2019,Rey,Isaac,1997-08-25,Panama,Institut Supérieur,Comores,Regnier et Fils,2019-01-09,2019-06-21,Transform best-of-breed architectures,Reste poésie également autour.,False,Littérature
+178,2020,Rey,Isaac,1997-08-25,Panama,Institut Supérieur,Afghanistan,Colin SARL,2020-05-24,2020-09-01,Architect sticky technologies,Inquiéter passer forme attitude premier obéir.,True,Économie; Littérature
+46,2017,Robin,Benjamin,2002-02-09,Ukraine,Université Lumière,Chili,Peron,2017-02-23,2017-06-24,Re-contextualize compelling solutions,Queue étrange muet position.,True,Économie
+78,2018,Robin,Benjamin,2002-02-09,Ukraine,Université Lumière,Chypre,Lamy,2018-04-23,2018-06-19,Maximize robust interfaces,Queue auquel ressembler cependant.,True,Économie; Physique
+117,2019,Robin,Benjamin,2002-02-09,Ukraine,Université Lumière,,,,,Disintermediate impactful metrics,Visage te remonter.,True,Physique
+161,2020,Robin,Benjamin,2002-02-09,Ukraine,Université Lumière,Sahara Occidental,Sanchez et Fils,2020-05-15,2020-08-11,Whiteboard b2b e-commerce,Caresser construire faute heureux.,False,Biologie; Chimie; Économie; Informatique; Littérature; Philosophie; Physique
+204,2021,Robin,Benjamin,2002-02-09,Ukraine,Université Lumière,Timor,Chevallier,2021-03-31,2021-07-23,,,,Biologie; Chimie; Histoire; Physique
+230,2022,Robin,Benjamin,2002-02-09,Ukraine,Université Lumière,Somalie,De Oliveira S.A.S.,2022-03-11,2022-07-28,,,,Économie; Histoire; Informatique; Littérature; Physique
+262,2023,Robin,Benjamin,2002-02-09,Ukraine,Université Lumière,Espagne,Renault SA,2023-04-01,2023-05-12,Whiteboard bleeding-edge systems,Signifier sujet ciel inspirer ministre.,False,Histoire; Informatique
+19,2015,Marques,Laure,1998-03-06,Cocos (Îles),École Polytechnique,,,,,Utilize seamless roi,Un extraordinaire composer gens encore roi plaire.,False,Biologie; Chimie; Économie; Histoire; Mathématiques
+38,2016,Marques,Laure,1998-03-06,Cocos (Îles),École Polytechnique,Bhoutan,Julien S.A.R.L.,2016-03-30,2016-09-13,Empower customized initiatives,Danger hier de vue.,False,Économie; Histoire; Informatique; Littérature; Mathématiques
+65,2017,Marques,Laure,1998-03-06,Cocos (Îles),École Polytechnique,Sri Lanka,Chauvet,2017-05-19,2017-08-09,Scale best-of-breed e-markets,Dernier parcourir faire cent horizon.,True,Économie
+102,2018,Marques,Laure,1998-03-06,Cocos (Îles),École Polytechnique,Yougoslavie,Verdier,2018-04-25,2018-08-30,,,,Biologie; Physique
+145,2019,Marques,Laure,1998-03-06,Cocos (Îles),École Polytechnique,Cambodge,Bonnet S.A.S.,2019-01-31,2019-03-19,Whiteboard killer eyeballs,Bas cinq foule désigner magnifique.,False,Chimie; Économie; Informatique; Philosophie
+185,2020,Marques,Laure,1998-03-06,Cocos (Îles),École Polytechnique,France,Brunel Neveu SARL,2020-06-27,2020-08-28,Engage global relationships,Parvenir conscience chambre bande.,False,Histoire; Littérature
+73,2017,Lombard,Susan,1995-10-20,Égypte,École Polytechnique,,,,,Synthesize out-of-the-box networks,Cacher livre geste lourd ce soudain.,False,Chimie; Économie
+97,2018,Lombard,Susan,1995-10-20,Égypte,École Polytechnique,Cuba,Sanchez,2018-04-21,2018-07-14,Enhance dot-com action-items,Dégager assister robe éclairer terrible.,False,Informatique
+151,2019,Lombard,Susan,1995-10-20,Égypte,École Polytechnique,,,,,Productize collaborative applications,Trace anglais fleur ouvert.,False,Biologie; Histoire; Mathématiques
+192,2020,Lombard,Susan,1995-10-20,Égypte,École Polytechnique,Bhoutan,De Sousa,2020-02-02,2020-05-16,Grow viral e-tailers,Difficile terrain chose vide.,True,Mathématiques
+220,2021,Lombard,Susan,1995-10-20,Égypte,École Polytechnique,Qatar,Didier,2021-01-12,2021-06-22,Aggregate world-class paradigms,Principe bureau dominer animer travers doigt.,True,Économie; Informatique; Mathématiques; Philosophie
+250,2022,Lombard,Susan,1995-10-20,Égypte,École Polytechnique,Colombie,Pages,2022-06-05,2022-11-09,Morph user-centric bandwidth,Arriver étage puis secrétaire.,False,Économie; Histoire; Littérature; Philosophie; Physique
+274,2023,Lombard,Susan,1995-10-20,Égypte,École Polytechnique,Saint Pierre et Miquelon,Neveu Lesage S.A.,2023-05-08,2023-10-29,Target revolutionary markets,Loin force perte nul.,True,Chimie; Mathématiques; Physique
+292,2024,Lombard,Susan,1995-10-20,Égypte,École Polytechnique,Macau,Marques,2024-03-21,2024-08-01,Reinvent transparent niches,Inventer passion inspirer grain public rond.,False,Histoire; Mathématiques; Philosophie; Physique
+14,2015,Benard,Hélène,1997-07-06,Thailande,École Polytechnique,Biélorussie,Fontaine Pierre S.A.S.,2015-06-11,2015-10-06,Deliver interactive web services,Billet ne apparence dent.,True,Biologie; Économie; Littérature; Philosophie; Physique
+42,2016,Benard,Hélène,1997-07-06,Thailande,École Polytechnique,Tchad,Jourdan,2016-04-07,2016-05-13,Grow holistic niches,Lisser fou chemise peur.,False,Biologie; Histoire; Mathématiques; Philosophie
+64,2017,Benard,Hélène,1997-07-06,Thailande,École Polytechnique,Portugal,Lebreton,2017-02-11,2017-07-23,Maximize value-added web-readiness,Haut conclure vent morceau attention société.,False,Biologie; Économie; Informatique; Mathématiques; Philosophie; Physique
+99,2018,Benard,Hélène,1997-07-06,Thailande,École Polytechnique,Angola,Bonneau,2018-05-01,2018-07-27,Scale innovative architectures,Vaste puissance environ système.,True,Histoire
+140,2019,Benard,Hélène,1997-07-06,Thailande,École Polytechnique,Vietnam,Bouchet SA,2019-04-05,2019-07-05,,,,Chimie
+132,2019,Fontaine,Étienne,2001-11-11,Indonésie,Institut Supérieur,Islande,Ruiz Dos Santos et Fils,2019-02-06,2019-07-29,Visualize collaborative paradigms,Seconde pauvre plein tenir perdu ensuite secours.,False,Économie; Informatique; Littérature; Mathématiques
+171,2020,Fontaine,Étienne,2001-11-11,Indonésie,Institut Supérieur,Cameroun,Evrard,2020-02-14,2020-07-21,Leverage cutting-edge deliverables,Ouvert aller claire pied cent étranger.,False,Économie; Philosophie
+208,2021,Fontaine,Étienne,2001-11-11,Indonésie,Institut Supérieur,Portugal,Gaillard Pierre SA,2021-06-14,2021-10-09,,,,Économie; Littérature
+238,2022,Fontaine,Étienne,2001-11-11,Indonésie,Institut Supérieur,Samoa,Vallée,2022-04-19,2022-07-01,Innovate front-end communities,Pourquoi aucun aucun bouche tantôt.,False,Informatique; Physique
+265,2023,Fontaine,Étienne,2001-11-11,Indonésie,Institut Supérieur,Kirghizistan,Robin Imbert SARL,2023-03-01,2023-08-12,,,,Biologie; Économie; Informatique
+286,2024,Fontaine,Étienne,2001-11-11,Indonésie,Institut Supérieur,,,,,Reinvent efficient metrics,An crainte apercevoir robe.,True,Biologie; Économie
+187,2020,Guillaume,Laure,2004-10-05,Norvège,École Polytechnique,Guatemala,Grondin S.A.R.L.,2020-05-06,2020-08-17,,,,Informatique; Mathématiques; Philosophie
+224,2021,Guillaume,Laure,2004-10-05,Norvège,École Polytechnique,,,,,Target wireless mindshare,Révolution effacer science silencieux école car.,True,Chimie; Économie; Littérature
+248,2022,Guillaume,Laure,2004-10-05,Norvège,École Polytechnique,Cook (Îles),Blanchet S.A.S.,2022-01-09,2022-04-09,,,,Économie; Histoire; Informatique; Mathématiques; Philosophie; Physique
+271,2023,Guillaume,Laure,2004-10-05,Norvège,École Polytechnique,Maurice,Dijoux,2023-03-08,2023-08-01,Enhance killer interfaces,Après présence remettre peuple ramasser général.,True,Économie; Histoire; Littérature; Mathématiques; Philosophie
+293,2024,Guillaume,Laure,2004-10-05,Norvège,École Polytechnique,Guyane,Dupont,2024-03-17,2024-06-21,Revolutionize end-to-end metrics,Mur problème voilà rouler faute.,False,Histoire; Informatique; Mathématiques; Philosophie
+175,2020,Morvan,Xavier,2005-11-26,Indonésie,Institut Supérieur,Autriche,Maillot,2020-02-10,2020-07-29,Morph bricks-and-clicks mindshare,Avec goût part que aventure auprès foi.,False,Économie
+214,2021,Morvan,Xavier,2005-11-26,Indonésie,Institut Supérieur,,,,,Syndicate innovative bandwidth,Enfermer honneur vingt angoisse.,True,Littérature
+242,2022,Morvan,Xavier,2005-11-26,Indonésie,Institut Supérieur,Jordanie,Langlois,2022-03-11,2022-08-15,Scale world-class initiatives,Sourd retrouver sens paysan prix.,False,Biologie; Histoire; Littérature; Mathématiques; Philosophie
+268,2023,Morvan,Xavier,2005-11-26,Indonésie,Institut Supérieur,Samoa,Navarro,2023-01-03,2023-04-14,Drive b2c supply-chains,Pourtant figurer réunir soumettre bataille trésor faveur est.,True,Biologie
+287,2024,Morvan,Xavier,2005-11-26,Indonésie,Institut Supérieur,,,,,,,,Économie
+3,2015,Robin,Philippe,2002-03-14,Wallis et Futuna (Îles),Université Lumière,Kenya,Blondel,2015-01-21,2015-05-26,,,,Informatique; Littérature
+23,2016,Robin,Philippe,2002-03-14,Wallis et Futuna (Îles),Université Lumière,France,Allain,2016-06-07,2016-09-15,Orchestrate mission-critical platforms,Gauche herbe accord leur.,True,Philosophie
+44,2017,Robin,Philippe,2002-03-14,Wallis et Futuna (Îles),Université Lumière,Tchad,Berthelot,2017-06-27,2017-10-25,,,,Chimie; Économie; Histoire; Informatique; Physique
+76,2018,Robin,Philippe,2002-03-14,Wallis et Futuna (Îles),Université Lumière,Rwanda,Richard Schmitt SARL,2018-03-24,2018-08-27,Synthesize revolutionary methodologies,Marché condition presser enfance prêt souvenir.,False,Biologie; Chimie; Économie; Littérature
+112,2019,Robin,Philippe,2002-03-14,Wallis et Futuna (Îles),Université Lumière,Chypre,Ollivier Vasseur S.A.R.L.,2019-06-22,2019-10-20,Mesh innovative synergies,Président propos midi cesse intérieur rideau âgé.,False,Chimie; Économie; Littérature; Mathématiques; Physique
+157,2020,Robin,Philippe,2002-03-14,Wallis et Futuna (Îles),Université Lumière,Territoire britannique de l'océan Indien,Brunet SA,2020-04-25,2020-09-09,Strategize front-end paradigms,Étouffer doucement dessus attitude an gagner.,False,Biologie; Chimie; Économie; Histoire; Littérature; Mathématiques; Philosophie
+5,2015,Brun,Constance,2003-11-08,Nepal,Université Lumière,,,,,Transition dynamic partnerships,Cercle saluer dessus satisfaire circonstance de repas fou.,False,Biologie; Informatique; Philosophie
+22,2016,Brun,Constance,2003-11-08,Nepal,Université Lumière,Saint-Marin (Rép. de),Pineau,2016-06-01,2016-10-02,Mesh cutting-edge supply-chains,Jardin quoi chez maître rouler appartenir.,False,Biologie; Économie; Informatique; Mathématiques; Philosophie
+47,2017,Brun,Constance,2003-11-08,Nepal,Université Lumière,Irak,Pierre Albert SARL,2017-01-13,2017-04-21,Leverage cross-platform bandwidth,Verre rendre que obliger écouter pendant maladie.,False,Biologie; Chimie; Histoire; Philosophie; Physique
+81,2018,Brun,Constance,2003-11-08,Nepal,Université Lumière,,,,,Envisioneer impactful portals,Discuter bête moyen mari double raison fruit sens.,False,Chimie; Philosophie
+118,2019,Brun,Constance,2003-11-08,Nepal,Université Lumière,,,,,Syndicate open-source web services,Tourner faute joindre deviner devant espérer vif.,True,Chimie; Économie
+37,2016,Fournier,Charles,2005-08-19,Swaziland,École Polytechnique,Saint Vincent et les Grenadines,Colin Thomas S.A.S.,2016-01-26,2016-02-28,,,,Informatique; Physique
+66,2017,Fournier,Charles,2005-08-19,Swaziland,École Polytechnique,Bermudes (Les),Hoareau,2017-03-06,2017-05-18,Envisioneer strategic roi,Nom penser rayon l'un courage jambe même.,False,Biologie; Chimie; Économie; Informatique; Littérature; Mathématiques; Philosophie; Physique
+103,2018,Fournier,Charles,2005-08-19,Swaziland,École Polytechnique,Iran,Garcia Chartier SARL,2018-04-25,2018-08-19,Aggregate visionary methodologies,Mal étrange politique genou nuage impression action produire.,True,Histoire; Philosophie
+138,2019,Fournier,Charles,2005-08-19,Swaziland,École Polytechnique,Mongolie,Gauthier,2019-04-06,2019-07-06,,,,Chimie; Informatique
+152,2019,Perret,Thierry,1999-05-31,Corée du Nord,École Polytechnique,,,,,Mesh mission-critical content,Chair flot user grâce votre rêve classe.,False,Chimie; Économie
+193,2020,Perret,Thierry,1999-05-31,Corée du Nord,École Polytechnique,,,,,Revolutionize next-generation infrastructures,Amour cheval tourner écraser.,False,Chimie; Économie; Informatique; Littérature
+218,2021,Perret,Thierry,1999-05-31,Corée du Nord,École Polytechnique,Saint-Kitts et Nevis,Bourgeois Guyot S.A.S.,2021-05-06,2021-09-21,Embrace one-to-one applications,Emmener premier élément fonction.,True,Économie; Mathématiques; Physique
+253,2022,Perret,Thierry,1999-05-31,Corée du Nord,École Polytechnique,Canada,Laurent S.A.R.L.,2022-06-01,2022-11-20,Enhance plug-and-play communities,Propre assister très lumière plein objet simplement.,False,Biologie; Économie; Histoire; Informatique; Mathématiques
+273,2023,Perret,Thierry,1999-05-31,Corée du Nord,École Polytechnique,Vierges (Îles),Delaunay S.A.,2023-02-13,2023-03-18,,,,Économie; Littérature; Philosophie
+295,2024,Perret,Thierry,1999-05-31,Corée du Nord,École Polytechnique,,,,,,,,Mathématiques
+125,2019,Maury,Dominique,2006-02-03,Costa Rica,Institut Supérieur,Guyane,Martinez Vaillant et Fils,2019-05-23,2019-11-11,Revolutionize seamless initiatives,Nommer doux établir renoncer.,False,Économie; Informatique; Philosophie
+180,2020,Maury,Dominique,2006-02-03,Costa Rica,Institut Supérieur,,,,,Incubate enterprise synergies,Premier endormir soin fait.,False,Chimie; Informatique; Philosophie; Physique
+215,2021,Maury,Dominique,2006-02-03,Costa Rica,Institut Supérieur,,,,,,,,Informatique; Mathématiques
+244,2022,Maury,Dominique,2006-02-03,Costa Rica,Institut Supérieur,,,,,,,,Chimie; Informatique
+269,2023,Maury,Dominique,2006-02-03,Costa Rica,Institut Supérieur,,,,,,,,Chimie; Économie; Histoire; Informatique; Mathématiques; Philosophie
+288,2024,Maury,Dominique,2006-02-03,Costa Rica,Institut Supérieur,,,,,,,,Biologie; Philosophie; Physique
+13,2015,Guilbert,Alexandria,1997-04-12,Svalbard et Jan Mayen (Îles),Institut Supérieur,,,,,,,,Biologie; Économie; Informatique; Mathématiques; Physique
+33,2016,Guilbert,Alexandria,1997-04-12,Svalbard et Jan Mayen (Îles),Institut Supérieur,,,,,Target magnetic infrastructures,Prouver dès tard aimer sentier naturel ici contenir.,True,Biologie; Chimie; Économie; Informatique; Mathématiques; Philosophie
+61,2017,Guilbert,Alexandria,1997-04-12,Svalbard et Jan Mayen (Îles),Institut Supérieur,,,,,Streamline real-time networks,Drôle ça jaune intéresser.,True,Économie; Histoire; Littérature; Mathématiques; Physique
+92,2018,Guilbert,Alexandria,1997-04-12,Svalbard et Jan Mayen (Îles),Institut Supérieur,Oman,Foucher S.A.,2018-02-19,2018-03-29,Maximize wireless content,Père lentement quand fruit résister.,True,Chimie; Économie; Histoire; Mathématiques
+130,2019,Guilbert,Alexandria,1997-04-12,Svalbard et Jan Mayen (Îles),Institut Supérieur,Syrie,Schneider,2019-06-04,2019-11-01,,,,Littérature
+168,2020,Guilbert,Alexandria,1997-04-12,Svalbard et Jan Mayen (Îles),Institut Supérieur,Koweit,Lagarde,2020-05-31,2020-10-04,Transform compelling e-tailers,Interroger prononcer plaisir geste.,False,Histoire
+119,2019,Buisson,Cécile,1994-11-01,Dominique,Université Lumière,,,,,,,,Biologie; Littérature; Philosophie
+154,2020,Buisson,Cécile,1994-11-01,Dominique,Université Lumière,Aruba,Ramos,2020-04-21,2020-06-03,Iterate b2c eyeballs,Coûter meilleur prochain million chez peine politique.,False,Économie; Histoire; Informatique
+199,2021,Buisson,Cécile,1994-11-01,Dominique,Université Lumière,Islande,Lecoq S.A.R.L.,2021-02-06,2021-04-10,Cultivate cross-media schemas,Terrain lutter avant courage rejeter tant.,True,Mathématiques; Philosophie
+229,2022,Buisson,Cécile,1994-11-01,Dominique,Université Lumière,Roumanie,Rodriguez Gilbert et Fils,2022-02-26,2022-05-17,,,,Chimie; Informatique
+261,2023,Buisson,Cécile,1994-11-01,Dominique,Université Lumière,Hong Kong,Lebrun SARL,2023-03-25,2023-07-04,Redefine frictionless paradigms,Mort chute énergie possible vin déchirer entretenir.,True,Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie
+281,2024,Buisson,Cécile,1994-11-01,Dominique,Université Lumière,Afrique du sud,Diaz Jourdan S.A.R.L.,2024-02-03,2024-03-07,,,,Chimie; Économie; Histoire; Informatique; Philosophie
+160,2020,Thibault,Guy,1996-02-23,Guinée Equatoriale,Université Lumière,Chili,Girard,2020-03-27,2020-08-07,Harness distributed deliverables,Salut droite jambe placer santé.,False,Informatique
+201,2021,Thibault,Guy,1996-02-23,Guinée Equatoriale,Université Lumière,Sénégal,Martin Mahe et Fils,2021-06-26,2021-11-11,Iterate frictionless experiences,Oser sentir penser fine inviter rêver vous.,True,Biologie; Économie; Histoire; Informatique
+234,2022,Thibault,Guy,1996-02-23,Guinée Equatoriale,Université Lumière,,,,,,,,Biologie; Économie; Histoire; Physique
+260,2023,Thibault,Guy,1996-02-23,Guinée Equatoriale,Université Lumière,République tchèque,Allain Marques SARL,2023-04-26,2023-08-11,,,,Biologie; Chimie; Histoire; Informatique; Philosophie
+282,2024,Thibault,Guy,1996-02-23,Guinée Equatoriale,Université Lumière,Singapour,Guillot,2024-06-03,2024-07-16,Strategize impactful portals,Annoncer dehors plein.,True,Biologie; Économie; Informatique; Littérature; Mathématiques; Philosophie; Physique
+20,2015,Cohen,Valérie,1996-11-19,Algérie,École Polytechnique,,,,,Architect dot-com relationships,Donc confondre moyen quelque art gris.,True,Biologie; Chimie
+39,2016,Cohen,Valérie,1996-11-19,Algérie,École Polytechnique,Haïti,Joseph,2016-04-14,2016-06-06,,,,Histoire
+68,2017,Cohen,Valérie,1996-11-19,Algérie,École Polytechnique,Cameroun,Bazin,2017-06-26,2017-10-14,Re-contextualize proactive mindshare,Voler cent conseil simple cour.,True,Biologie; Économie; Philosophie
+106,2018,Cohen,Valérie,1996-11-19,Algérie,École Polytechnique,,,,,Deliver visionary mindshare,Éviter coup signe aucun vaste article.,False,Biologie; Économie
+148,2019,Cohen,Valérie,1996-11-19,Algérie,École Polytechnique,Ethiopie,Fischer Morel S.A.,2019-06-09,2019-10-10,,,,Philosophie; Physique
+194,2020,Cohen,Valérie,1996-11-19,Algérie,École Polytechnique,,,,,Engage e-business mindshare,Peu ton répandre malade bien.,True,Chimie; Physique
+62,2017,Hernandez,Nathalie,2000-03-06,Tokelau,Institut Supérieur,,,,,Embrace real-time web-readiness,Rouge preuve gouvernement pas sommeil tromper.,False,Biologie; Mathématiques
+90,2018,Hernandez,Nathalie,2000-03-06,Tokelau,Institut Supérieur,Koweit,Gautier,2018-02-23,2018-07-18,Utilize real-time models,Suffire chute cri décider.,True,Chimie
+135,2019,Hernandez,Nathalie,2000-03-06,Tokelau,Institut Supérieur,,,,,,,,Chimie; Histoire; Informatique; Littérature; Philosophie
+173,2020,Hernandez,Nathalie,2000-03-06,Tokelau,Institut Supérieur,Côte d'Ivoire,Guillot Lucas S.A.R.L.,2020-01-10,2020-03-12,Implement seamless initiatives,Pénétrer violent trait rôle savoir branche.,True,Biologie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie; Physique
+209,2021,Hernandez,Nathalie,2000-03-06,Tokelau,Institut Supérieur,Aruba,Klein,2021-01-08,2021-06-07,,,,Histoire
+239,2022,Hernandez,Nathalie,2000-03-06,Tokelau,Institut Supérieur,Cap Vert,Peltier,2022-05-26,2022-07-11,Mesh cross-platform e-business,Accrocher franc paysage parler rompre poésie dès.,False,Biologie; Informatique; Physique
+107,2018,Lamy,Tristan,1998-04-29,Guinée Equatoriale,École Polytechnique,,,,,Aggregate frictionless interfaces,Terreur si or action choisir si arriver leur.,True,Chimie; Philosophie
+153,2019,Lamy,Tristan,1998-04-29,Guinée Equatoriale,École Polytechnique,,,,,,,,Chimie; Économie
+195,2020,Lamy,Tristan,1998-04-29,Guinée Equatoriale,École Polytechnique,,,,,Optimize revolutionary models,Juge surveiller colline chance baisser.,False,Informatique; Littérature
+221,2021,Lamy,Tristan,1998-04-29,Guinée Equatoriale,École Polytechnique,Ghana,Martin,2021-06-06,2021-08-07,Mesh innovative partnerships,Blond prévenir falloir train nul toute.,True,Économie; Informatique; Mathématiques; Philosophie
+249,2022,Lamy,Tristan,1998-04-29,Guinée Equatoriale,École Polytechnique,Slovénie,Poirier Fernandez S.A.S.,2022-04-27,2022-09-06,,,,Biologie; Chimie; Économie; Littérature; Philosophie; Physique
+277,2023,Lamy,Tristan,1998-04-29,Guinée Equatoriale,École Polytechnique,,,,,Enable dot-com interfaces,Également haut agiter toile nombre abandonner tout.,True,Biologie; Chimie; Économie; Histoire; Informatique; Mathématiques; Philosophie; Physique
+296,2024,Lamy,Tristan,1998-04-29,Guinée Equatoriale,École Polytechnique,,,,,Matrix wireless metrics,Drôle complet nuit soulever.,True,Chimie; Physique
+12,2015,Gomez,Maggie,1995-09-06,Syrie,Institut Supérieur,Ghana,Georges Étienne SARL,2015-05-04,2015-10-27,,,,Biologie; Chimie; Histoire; Littérature; Physique
+28,2016,Gomez,Maggie,1995-09-06,Syrie,Institut Supérieur,Micronésie (États fédérés de),Briand,2016-03-09,2016-05-26,Incentivize best-of-breed supply-chains,Même portier médecin dos parce que comme âme poésie.,True,Littérature; Mathématiques
+53,2017,Gomez,Maggie,1995-09-06,Syrie,Institut Supérieur,Wallis et Futuna (Îles),Renard S.A.,2017-05-13,2017-09-01,,,,Chimie; Économie; Philosophie; Physique
+89,2018,Gomez,Maggie,1995-09-06,Syrie,Institut Supérieur,Nigeria,Foucher Gauthier SA,2018-02-09,2018-03-23,Envisioneer integrated portals,Projet plutôt assister bataille.,True,Biologie; Économie; Philosophie; Physique
+136,2019,Gomez,Maggie,1995-09-06,Syrie,Institut Supérieur,,,,,Reinvent enterprise info-mediaries,Peine état nourrir ton.,False,Chimie; Économie; Informatique; Littérature; Philosophie; Physique
+176,2020,Gomez,Maggie,1995-09-06,Syrie,Institut Supérieur,Cayman (Îles),Boulay Sanchez SARL,2020-06-27,2020-09-15,Iterate holistic solutions,Liberté objet avant éclairer sein rapidement.,False,Physique
+51,2017,Chauveau,Louise,1998-06-29,Ethiopie,Université Lumière,,,,,Extend best-of-breed mindshare,Étendre pensée pendant construire décider.,True,Chimie; Informatique; Littérature; Mathématiques
+79,2018,Chauveau,Louise,1998-06-29,Ethiopie,Université Lumière,Anguilla,Legendre Chauvin S.A.S.,2018-01-10,2018-05-05,,,,Chimie; Économie; Mathématiques; Philosophie; Physique
+120,2019,Chauveau,Louise,1998-06-29,Ethiopie,Université Lumière,,,,,,,,Chimie; Économie; Physique
+166,2020,Chauveau,Louise,1998-06-29,Ethiopie,Université Lumière,,,,,Incubate one-to-one roi,Peser naître dégager fatiguer raconter président droit.,False,Informatique; Littérature
+200,2021,Chauveau,Louise,1998-06-29,Ethiopie,Université Lumière,Saint-Kitts et Nevis,Lagarde et Fils,2021-03-16,2021-07-29,Re-contextualize best-of-breed networks,Lieu ennemi vague retirer certes fois expression faveur.,False,Chimie; Philosophie; Physique
+235,2022,Chauveau,Louise,1998-06-29,Ethiopie,Université Lumière,,,,,Benchmark back-end web services,Quelque tête entrer roi riche bataille.,False,Économie
+70,2017,Chauveau,Aurore,2006-05-18,Anguilla,École Polytechnique,Andorre,Menard Ferreira SA,2017-03-22,2017-06-29,Facilitate rich paradigms,Plaisir loup prêter peser veille bon renoncer.,False,Histoire; Informatique; Littérature; Philosophie
+98,2018,Chauveau,Aurore,2006-05-18,Anguilla,École Polytechnique,Sainte Hélène,Fouquet,2018-03-24,2018-05-26,Orchestrate rich e-tailers,Cesse hésiter disparaître terme.,True,Chimie; Économie
+143,2019,Chauveau,Aurore,2006-05-18,Anguilla,École Polytechnique,Belize,Hernandez,2019-03-13,2019-08-15,Generate rich mindshare,Meilleur surveiller salle plaindre agent esprit.,True,Économie; Informatique; Philosophie
+196,2020,Chauveau,Aurore,2006-05-18,Anguilla,École Polytechnique,,,,,Enhance global relationships,Semblable public manquer droite signe pencher.,False,Biologie; Chimie; Économie; Informatique; Littérature; Mathématiques; Philosophie
+225,2021,Chauveau,Aurore,2006-05-18,Anguilla,École Polytechnique,,,,,,,,Histoire; Philosophie; Physique
+247,2022,Chauveau,Aurore,2006-05-18,Anguilla,École Polytechnique,Laos,Moulin SA,2022-04-08,2022-05-12,,,,Biologie
+59,2017,Vaillant,Jérôme,1997-08-03,Pays-Bas,Institut Supérieur,Thailande,Weber Mallet SA,2017-02-09,2017-04-24,Seize wireless models,Quarante tour dernier franchir.,True,Économie; Littérature; Physique
+86,2018,Vaillant,Jérôme,1997-08-03,Pays-Bas,Institut Supérieur,Jordanie,Barbier S.A.,2018-02-23,2018-04-17,Deploy web-enabled roi,Lèvre lutte rejeter complètement instinct affirmer acte.,True,Biologie; Histoire
+137,2019,Vaillant,Jérôme,1997-08-03,Pays-Bas,Institut Supérieur,,,,,Leverage wireless bandwidth,Compagnie musique trembler journée risquer.,True,Biologie; Économie; Histoire; Philosophie
+181,2020,Vaillant,Jérôme,1997-08-03,Pays-Bas,Institut Supérieur,,,,,Cultivate magnetic info-mediaries,Pierre succès semblable comment cesser comment.,True,Informatique; Mathématiques
+216,2021,Vaillant,Jérôme,1997-08-03,Pays-Bas,Institut Supérieur,,,,,,,,Biologie; Économie; Histoire; Littérature; Mathématiques; Philosophie
+237,2022,Vaillant,Jérôme,1997-08-03,Pays-Bas,Institut Supérieur,Sainte Lucie,Seguin Martel SARL,2022-06-15,2022-08-26,,,,Philosophie; Physique
+34,2016,Gay,Adèle,1995-11-29,Gambie,Institut Supérieur,,,,,Embrace rich paradigms,Exécuter tard mille tôt blanc vol étranger.,True,Économie; Histoire; Informatique; Littérature; Philosophie
+57,2017,Gay,Adèle,1995-11-29,Gambie,Institut Supérieur,Norfolk (Îles),Huet,2017-03-25,2017-06-13,Disintermediate integrated applications,Résistance inventer sou oeuvre révéler visible.,False,Biologie; Histoire; Informatique; Littérature
+96,2018,Gay,Adèle,1995-11-29,Gambie,Institut Supérieur,,,,,Enable dynamic portals,Article vraiment cerveau du.,True,Biologie; Chimie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie; Physique
+129,2019,Gay,Adèle,1995-11-29,Gambie,Institut Supérieur,Italie,Philippe S.A.S.,2019-03-18,2019-05-20,Reinvent cross-platform interfaces,Fort rire répondre courant cri serrer.,False,Histoire; Mathématiques; Philosophie; Physique
+170,2020,Gay,Adèle,1995-11-29,Gambie,Institut Supérieur,Belize,Michaud,2020-04-17,2020-08-31,Envisioneer one-to-one content,Départ ressembler comment façon puis monter.,True,Chimie; Littérature
+211,2021,Gay,Adèle,1995-11-29,Gambie,Institut Supérieur,Australie,Roger Charpentier S.A.S.,2021-01-15,2021-06-09,Incubate extensible convergence,Coûter puisque allumer tromper exposer digne vingt embrasser.,False,Philosophie
+115,2019,Brun,Louise,2003-07-09,Tchad,Université Lumière,Estonie,Peron Tessier et Fils,2019-04-04,2019-07-26,Synergize intuitive networks,Ferme rose te terre.,False,Physique
+163,2020,Brun,Louise,2003-07-09,Tchad,Université Lumière,Moldavie,Laine,2020-02-22,2020-07-02,,,,Économie; Histoire; Informatique; Philosophie
+203,2021,Brun,Louise,2003-07-09,Tchad,Université Lumière,Arabie saoudite,Pinto,2021-05-06,2021-07-27,Morph turn-key interfaces,Sortir engager cependant prêter théâtre étranger souffrir.,False,Biologie; Chimie; Économie; Mathématiques
+236,2022,Brun,Louise,2003-07-09,Tchad,Université Lumière,,,,,,,,Biologie; Littérature
+258,2023,Brun,Louise,2003-07-09,Tchad,Université Lumière,Micronésie (États fédérés de),Cohen Toussaint et Fils,2023-03-01,2023-05-06,Empower collaborative technologies,Sable voyager relever.,False,Biologie; Chimie; Économie; Littérature; Mathématiques
+283,2024,Brun,Louise,2003-07-09,Tchad,Université Lumière,,,,,,,,Mathématiques; Philosophie
+2,2015,Lévêque,Lucy,1998-10-06,Libéria,Université Lumière,Svalbard et Jan Mayen (Îles),Rocher,2015-06-27,2015-10-11,Re-intermediate plug-and-play interfaces,Rue fermer changer respirer lequel meilleur quitter.,False,Informatique; Littérature
+24,2016,Lévêque,Lucy,1998-10-06,Libéria,Université Lumière,Turquie,Munoz,2016-03-20,2016-07-27,Re-contextualize extensible niches,Suite calmer cesse autant croire veiller.,True,Biologie; Économie; Mathématiques
+48,2017,Lévêque,Lucy,1998-10-06,Libéria,Université Lumière,Tokelau,Paris SARL,2017-02-16,2017-05-16,Exploit holistic partnerships,Succès causer endroit fois pousser.,True,Physique
+82,2018,Lévêque,Lucy,1998-10-06,Libéria,Université Lumière,,,,,Deliver collaborative applications,Armée paysan beau espoir essayer trésor.,False,Biologie; Chimie; Littérature; Physique
+121,2019,Lévêque,Lucy,1998-10-06,Libéria,Université Lumière,,,,,Whiteboard ubiquitous architectures,Claire toit perdre rocher satisfaire.,True,Chimie; Philosophie; Physique
+159,2020,Lévêque,Lucy,1998-10-06,Libéria,Université Lumière,Irak,Moreau Lopes et Fils,2020-05-25,2020-09-18,Streamline out-of-the-box e-business,Fixe public enfin demi voler accent poursuivre.,False,Biologie; Physique
+11,2015,Blondel,Laurence,2007-03-27,Gabon,Institut Supérieur,Mozambique,Rodrigues S.A.R.L.,2015-04-19,2015-06-18,Visualize frictionless networks,Là gauche jeter marché accorder énergie.,True,Biologie; Économie; Informatique; Mathématiques
+27,2016,Blondel,Laurence,2007-03-27,Gabon,Institut Supérieur,Guadeloupe,Voisin,2016-03-27,2016-09-09,,,,Biologie; Chimie; Économie; Informatique; Littérature; Mathématiques; Philosophie
+63,2017,Blondel,Laurence,2007-03-27,Gabon,Institut Supérieur,,,,,E-enable granular portals,Partager produire entier secret silencieux.,True,Chimie; Économie; Informatique; Littérature; Philosophie; Physique
+85,2018,Blondel,Laurence,2007-03-27,Gabon,Institut Supérieur,Tunisie,Duhamel,2018-06-15,2018-10-11,,,,Chimie; Économie; Littérature
+127,2019,Blondel,Laurence,2007-03-27,Gabon,Institut Supérieur,Paraguay,Pasquier S.A.,2019-04-30,2019-06-05,Expedite best-of-breed channels,Note art compte.,True,Biologie; Économie; Histoire
+182,2020,Blondel,Laurence,2007-03-27,Gabon,Institut Supérieur,,,,,Transform intuitive infrastructures,Choix cerveau avis père obtenir plutôt.,True,Chimie; Histoire
+142,2019,Gaudin,Yves,2007-02-10,Malaisie,École Polytechnique,Cameroun,Bouvet,2019-03-24,2019-06-27,Re-intermediate 24/7 vortals,Condamner livre beau palais riche.,False,Biologie
+190,2020,Gaudin,Yves,2007-02-10,Malaisie,École Polytechnique,Brésil,Gimenez,2020-02-03,2020-05-23,Engage collaborative info-mediaries,Penser agiter fidèle retirer affirmer passion cheval.,False,Biologie; Histoire
+226,2021,Gaudin,Yves,2007-02-10,Malaisie,École Polytechnique,,,,,Drive synergistic action-items,Vif lire croiser petit.,True,Biologie; Chimie; Économie; Informatique; Littérature; Physique
+251,2022,Gaudin,Yves,2007-02-10,Malaisie,École Polytechnique,Qatar,Jacquot Paris S.A.R.L.,2022-02-14,2022-05-01,,,,Biologie; Histoire; Informatique; Littérature; Mathématiques; Physique
+278,2023,Gaudin,Yves,2007-02-10,Malaisie,École Polytechnique,,,,,Grow clicks-and-mortar methodologies,Étude son surveiller tel jour deux.,False,Physique
+169,2020,Mahe,Margot,2004-09-23,Guyane française,Institut Supérieur,Estonie,Carre,2020-06-27,2020-11-12,Transition turn-key communities,Premier parfaitement proposer.,True,Biologie; Économie; Littérature; Philosophie
+210,2021,Mahe,Margot,2004-09-23,Guyane française,Institut Supérieur,Malaisie,Lejeune Leblanc SA,2021-02-17,2021-07-29,Repurpose clicks-and-mortar mindshare,Respect son présent plaire chaîne poche particulier.,False,Biologie; Chimie; Informatique; Littérature; Physique
+241,2022,Mahe,Margot,2004-09-23,Guyane française,Institut Supérieur,Panama,Breton S.A.,2022-03-12,2022-09-02,Drive sticky portals,Malgré affaire poésie craindre oh.,False,Économie; Informatique; Littérature; Mathématiques; Philosophie
+266,2023,Mahe,Margot,2004-09-23,Guyane française,Institut Supérieur,Pakistan,Pasquier Barbier et Fils,2023-05-22,2023-10-07,Revolutionize efficient experiences,Surtout carte vue haut attacher paupière.,False,Économie; Physique
+284,2024,Mahe,Margot,2004-09-23,Guyane française,Institut Supérieur,Moldavie,De Sousa S.A.,2024-06-02,2024-11-20,,,,Chimie; Histoire; Mathématiques
+113,2019,Martel,Valérie,1995-02-11,Féroé (Îles),Université Lumière,Panama,Peron S.A.,2019-02-15,2019-07-26,Engage sticky bandwidth,Jeune ceci curiosité bête justice rouge marier habiter.,True,Philosophie
+167,2020,Martel,Valérie,1995-02-11,Féroé (Îles),Université Lumière,,,,,,,,Biologie; Mathématiques
+207,2021,Martel,Valérie,1995-02-11,Féroé (Îles),Université Lumière,,,,,Innovate sticky schemas,Demander rond autre voile suite.,True,Chimie; Histoire
+228,2022,Martel,Valérie,1995-02-11,Féroé (Îles),Université Lumière,Israël,Lenoir S.A.R.L.,2022-01-11,2022-03-19,Exploit out-of-the-box networks,Poitrine profondément sens.,True,Biologie; Économie; Histoire; Informatique; Littérature; Mathématiques
+259,2023,Martel,Valérie,1995-02-11,Féroé (Îles),Université Lumière,Rép. Dém. du Congo,Alves Turpin S.A.,2023-05-17,2023-07-18,Mesh next-generation e-markets,Résoudre sol fait type naissance.,False,Philosophie; Physique
+280,2024,Martel,Valérie,1995-02-11,Féroé (Îles),Université Lumière,Kirghizistan,Imbert Courtois SARL,2024-05-21,2024-10-07,,,,Biologie; Informatique; Littérature; Philosophie
+74,2017,Fabre,Astrid,2001-09-16,Nepal,École Polytechnique,,,,,Benchmark wireless convergence,Votre question absolument paquet.,False,Économie; Philosophie
+108,2018,Fabre,Astrid,2001-09-16,Nepal,École Polytechnique,,,,,Maximize bricks-and-clicks channels,Suite le résistance projet.,True,Biologie; Chimie; Économie; Histoire; Informatique; Physique
+144,2019,Fabre,Astrid,2001-09-16,Nepal,École Polytechnique,Azerbaïdjan,Rocher,2019-05-22,2019-08-13,Matrix one-to-one solutions,Quelqu'Un soleil emporter.,True,Économie; Informatique; Mathématiques
+184,2020,Fabre,Astrid,2001-09-16,Nepal,École Polytechnique,Argentine,Rodriguez Boucher S.A.R.L.,2020-06-12,2020-10-01,Revolutionize world-class web-readiness,Seul français oncle danger cinquante éclater santé.,False,Biologie; Informatique; Littérature; Mathématiques
+227,2021,Fabre,Astrid,2001-09-16,Nepal,École Polytechnique,,,,,Incubate user-centric users,Assurer imposer soleil humain plein.,True,Chimie; Informatique; Philosophie; Physique
+254,2022,Fabre,Astrid,2001-09-16,Nepal,École Polytechnique,,,,,Enable proactive models,Long mêler eau veille port mien.,False,Histoire; Littérature; Philosophie
+275,2023,Fabre,Astrid,2001-09-16,Nepal,École Polytechnique,Myanmar,Barthelemy,2023-04-13,2023-09-25,Deliver plug-and-play channels,Conscience certes arriver vol tenter.,False,Chimie; Histoire; Littérature
+290,2024,Fabre,Astrid,2001-09-16,Nepal,École Polytechnique,Grèce,Verdier S.A.S.,2024-04-27,2024-10-07,Engineer customized portals,Vieillard blanc part voie mourir au exposer.,True,Littérature; Mathématiques
+16,2015,Vallet,Pénélope,2000-04-16,Luxembourg,École Polytechnique,Macédoine,Gérard S.A.R.L.,2015-02-02,2015-06-05,Target 24/365 infrastructures,Poser naissance lever appartenir.,True,Biologie; Économie; Informatique; Littérature; Mathématiques; Philosophie; Physique
+40,2016,Vallet,Pénélope,2000-04-16,Luxembourg,École Polytechnique,Uruguay,Techer SA,2016-02-21,2016-08-14,Incubate bleeding-edge action-items,Vide admettre beauté lettre.,False,Biologie; Économie; Histoire; Informatique; Mathématiques; Philosophie
+67,2017,Vallet,Pénélope,2000-04-16,Luxembourg,École Polytechnique,Tokelau,Hoarau,2017-03-13,2017-09-07,Target customized portals,Peuple rapporter désirer entraîner mille appartement garde lever.,False,Chimie; Économie; Histoire; Littérature; Philosophie; Physique
+101,2018,Vallet,Pénélope,2000-04-16,Luxembourg,École Polytechnique,Namibie,Roy SARL,2018-05-07,2018-08-17,Transition cutting-edge relationships,Mine rien bout avant autorité déclarer.,False,Physique
+146,2019,Vallet,Pénélope,2000-04-16,Luxembourg,École Polytechnique,Nepal,Ramos Lejeune S.A.R.L.,2019-02-14,2019-05-01,,,,Physique
+197,2020,Vallet,Pénélope,2000-04-16,Luxembourg,École Polytechnique,,,,,Re-contextualize user-centric vortals,Oeuvre fête demain mariage.,False,Mathématiques
+35,2016,Pierre,Louise,1996-03-11,Montserrat,Institut Supérieur,,,,,,,,Littérature
+56,2017,Pierre,Louise,1996-03-11,Montserrat,Institut Supérieur,Christmas (Île),Maillet Picard S.A.R.L.,2017-01-23,2017-06-12,,,,Histoire; Physique
+87,2018,Pierre,Louise,1996-03-11,Montserrat,Institut Supérieur,Groenland,Regnier,2018-03-25,2018-06-20,Synergize bricks-and-clicks action-items,Entendre bruit étranger arracher accord façon.,True,Économie; Mathématiques
+128,2019,Pierre,Louise,1996-03-11,Montserrat,Institut Supérieur,Bosnie-Herzégovine,Toussaint S.A.S.,2019-06-17,2019-09-02,Mesh seamless info-mediaries,Scène accorder montrer printemps écrire souffrir.,False,Histoire; Philosophie; Physique
+183,2020,Pierre,Louise,1996-03-11,Montserrat,Institut Supérieur,,,,,Visualize extensible web-readiness,Fixe supporter nécessaire peau raison.,True,Histoire; Informatique
+217,2021,Pierre,Louise,1996-03-11,Montserrat,Institut Supérieur,,,,,,,,Chimie; Économie; Littérature; Mathématiques; Philosophie
+245,2022,Pierre,Louise,1996-03-11,Montserrat,Institut Supérieur,,,,,Engage b2b networks,Dernier coûter voler effort notre joue.,False,Informatique; Littérature; Mathématiques; Philosophie
+264,2023,Pierre,Louise,1996-03-11,Montserrat,Institut Supérieur,Papouasie-Nouvelle-Guinée,Clerc,2023-03-24,2023-07-10,,,,Chimie; Économie; Histoire; Philosophie
+289,2024,Pierre,Louise,1996-03-11,Montserrat,Institut Supérieur,,,,,Architect leading-edge convergence,Prix répondre écrire quinze.,False,Chimie; Économie; Histoire; Mathématiques; Philosophie; Physique
+4,2015,Diallo,François,1999-05-24,Guinée-Bissau,Université Lumière,São Tomé et Príncipe (Rép.),Lenoir S.A.R.L.,2015-05-02,2015-09-29,Whiteboard robust bandwidth,Perte tandis que agir.,True,Économie; Histoire; Mathématiques; Philosophie
+21,2016,Diallo,François,1999-05-24,Guinée-Bissau,Université Lumière,Aruba,Lévy,2016-06-13,2016-11-22,,,,Biologie; Économie; Physique
+45,2017,Diallo,François,1999-05-24,Guinée-Bissau,Université Lumière,Gibraltar,Renault Marchal S.A.,2017-06-15,2017-08-05,Matrix clicks-and-mortar experiences,Risquer milieu inspirer riche dès naturellement page.,False,Chimie; Mathématiques; Philosophie
+77,2018,Diallo,François,1999-05-24,Guinée-Bissau,Université Lumière,Groenland,Dupré SARL,2018-05-24,2018-07-07,Target next-generation technologies,Beau vie effacer bête tenir quel sauver.,True,Biologie; Économie; Informatique; Philosophie; Physique
+109,2019,Diallo,François,1999-05-24,Guinée-Bissau,Université Lumière,Qatar,Tessier S.A.S.,2019-05-11,2019-08-20,,,,Économie; Informatique; Littérature; Physique
+164,2020,Diallo,François,1999-05-24,Guinée-Bissau,Université Lumière,Porto Rico,Pineau,2020-01-28,2020-04-10,Unleash holistic relationships,Maintenant de semblable officier éteindre considérer.,False,Chimie
+6,2015,Brunel,Arthur,2003-04-14,République centrafricaine,Université Lumière,,,,,E-enable cutting-edge architectures,Puissant en emmener désigner saisir.,True,Biologie; Chimie; Économie; Informatique; Littérature; Mathématiques; Physique
+26,2016,Brunel,Arthur,2003-04-14,République centrafricaine,Université Lumière,,,,,Architect compelling infrastructures,Hier représenter terre le âge étoile exister tour.,True,Biologie; Chimie; Économie; Histoire
+49,2017,Brunel,Arthur,2003-04-14,République centrafricaine,Université Lumière,Somalie,Boucher,2017-03-22,2017-06-20,,,,Économie; Histoire; Littérature
+75,2018,Brunel,Arthur,2003-04-14,République centrafricaine,Université Lumière,Gambie,Monnier S.A.R.L.,2018-04-08,2018-09-08,Maximize transparent systems,Boire raison machine renoncer remonter sourire élément.,False,Biologie
+122,2019,Brunel,Arthur,2003-04-14,République centrafricaine,Université Lumière,,,,,,,,Chimie; Économie; Littérature
+155,2020,Brunel,Arthur,2003-04-14,République centrafricaine,Université Lumière,Suriname,Roux,2020-03-26,2020-09-05,,,,Économie; Physique
+139,2019,Blanc,Christophe,2000-04-26,Cap Vert,École Polytechnique,Laos,Marty Fischer S.A.R.L.,2019-02-18,2019-04-10,Synthesize magnetic partnerships,Enfin sentiment tout sérieux naître.,True,Chimie; Physique
+188,2020,Blanc,Christophe,2000-04-26,Cap Vert,École Polytechnique,Biélorussie,Chauveau,2020-03-17,2020-04-17,Implement b2b solutions,Écarter seconde par rouge monter.,False,Économie
+223,2021,Blanc,Christophe,2000-04-26,Cap Vert,École Polytechnique,Suède,Lebrun S.A.R.L.,2021-06-02,2021-08-29,Deliver bricks-and-clicks convergence,Soldat intérieur arbre possible poésie attacher étendue.,False,Littérature; Philosophie
+246,2022,Blanc,Christophe,2000-04-26,Cap Vert,École Polytechnique,Brésil,Guibert Dufour S.A.,2022-06-21,2022-11-13,Engage next-generation e-business,Soin prison danser précis interroger.,True,Biologie; Chimie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie; Physique
+276,2023,Blanc,Christophe,2000-04-26,Cap Vert,École Polytechnique,Kenya,Mercier,2023-02-03,2023-05-24,Re-intermediate 24/7 e-tailers,Chance amour escalier présent police enfin intérêt étranger.,True,Chimie; Informatique; Mathématiques; Physique
+297,2024,Blanc,Christophe,2000-04-26,Cap Vert,École Polytechnique,,,,,,,,Biologie; Chimie; Économie; Philosophie; Physique
+15,2015,Rémy,Marcel,1998-10-28,Oman,École Polytechnique,Trinité et Tobago,Petit et Fils,2015-06-09,2015-08-06,,,,Histoire
+36,2016,Rémy,Marcel,1998-10-28,Oman,École Polytechnique,Zambie,François Barre SARL,2016-04-05,2016-05-20,Disintermediate front-end paradigms,Préférer joue trace.,True,Chimie; Économie; Informatique; Littérature; Mathématiques; Philosophie; Physique
+71,2017,Rémy,Marcel,1998-10-28,Oman,École Polytechnique,São Tomé et Príncipe (Rép.),Aubert S.A.R.L.,2017-05-01,2017-09-26,,,,Biologie; Économie; Histoire; Mathématiques
+100,2018,Rémy,Marcel,1998-10-28,Oman,École Polytechnique,Samoa,Gomez,2018-03-30,2018-06-05,Scale magnetic interfaces,Bois succès accuser devoir lequel fonder heure.,True,Biologie; Chimie; Informatique
+147,2019,Rémy,Marcel,1998-10-28,Oman,École Polytechnique,Chili,Bonnin Leclercq S.A.,2019-05-08,2019-09-27,Repurpose one-to-one roi,Hôtel âme durant besoin.,False,Économie; Philosophie
+189,2020,Rémy,Marcel,1998-10-28,Oman,École Polytechnique,Brésil,Charles,2020-06-22,2020-10-21,Unleash viral eyeballs,Scène mari faim former coeur préparer diriger coin.,True,Biologie
+52,2017,Neveu,Charles,2005-12-15,Gambie,Université Lumière,,,,,,,,Chimie; Physique
+83,2018,Neveu,Charles,2005-12-15,Gambie,Université Lumière,,,,,Re-intermediate rich mindshare,Figurer respirer art moyen résultat sac crainte.,False,Biologie; Chimie; Littérature; Physique
+110,2019,Neveu,Charles,2005-12-15,Gambie,Université Lumière,Honduras,Petitjean,2019-02-16,2019-06-08,Grow leading-edge niches,Falloir personnage attention sonner cause jouer.,True,Économie; Informatique; Littérature; Mathématiques; Physique
+162,2020,Neveu,Charles,2005-12-15,Gambie,Université Lumière,Bangladesh,Faivre,2020-05-22,2020-09-19,,,,Économie; Histoire; Littérature; Mathématiques
+205,2021,Neveu,Charles,2005-12-15,Gambie,Université Lumière,Polynésie française,Roy S.A.R.L.,2021-01-07,2021-05-03,Incubate e-business paradigms,Bien droite voler boire.,True,Économie; Physique
+231,2022,Neveu,Charles,2005-12-15,Gambie,Université Lumière,Venezuela,Bailly Riou S.A.R.L.,2022-03-12,2022-05-21,Matrix plug-and-play architectures,Nez prouver colline poser rappeler.,True,Biologie; Chimie; Histoire
+257,2023,Neveu,Charles,2005-12-15,Gambie,Université Lumière,Turquie,Morin,2023-06-26,2023-12-01,Transition innovative e-business,Lire lèvre confier partout poids coûter devoir saluer.,True,Mathématiques
+141,2019,Aubert,Augustin,1998-12-04,Irak,École Polytechnique,Papouasie-Nouvelle-Guinée,Lopez,2019-04-11,2019-10-05,,,,Philosophie
+198,2020,Aubert,Augustin,1998-12-04,Irak,École Polytechnique,,,,,Expedite dot-com models,Du contraire instant causer peuple réussir loi droit.,True,Chimie; Informatique
+219,2021,Aubert,Augustin,1998-12-04,Irak,École Polytechnique,Marshall (Îles),Coulon Ledoux S.A.,2021-05-08,2021-09-03,Streamline revolutionary synergies,Trésor politique tout.,True,Littérature; Mathématiques
+255,2022,Aubert,Augustin,1998-12-04,Irak,École Polytechnique,,,,,Synergize magnetic initiatives,Situation suite parler arrivée signe.,True,Biologie; Histoire
+272,2023,Aubert,Augustin,1998-12-04,Irak,École Polytechnique,Espagne,Martins Colas SA,2023-03-04,2023-08-24,Redefine integrated solutions,Plutôt herbe hier science précieux.,False,Chimie; Économie; Philosophie
+291,2024,Aubert,Augustin,1998-12-04,Irak,École Polytechnique,République tchèque,Chrétien S.A.S.,2024-04-08,2024-10-03,,,,Biologie; Chimie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie; Physique
