@@ -113,16 +113,26 @@ SELECT DISTINCT
 FROM ods.etudiants_clean o;
 ""","dimension_projet"),
 
-# Info stage
+# Info stage (on exclut les lignes "entreprise seule")
 ("""
 INSERT INTO dwh.dimension_info_stage (pays, entreprise, date_debut, date_fin)
-SELECT DISTINCT
-  NULLIF(o.stage_pays,''), NULLIF(o.stage_entreprise,''), o.stage_debut, o.stage_fin
-FROM ods.etudiants_clean o
-WHERE o.stage_debut IS NOT NULL
-   OR o.stage_fin   IS NOT NULL
-   OR NULLIF(o.stage_pays,'') IS NOT NULL
-   OR NULLIF(o.stage_entreprise,'') IS NOT NULL;
+WITH base AS (
+  SELECT DISTINCT
+    NULLIF(NULLIF(NULLIF(TRIM(o.stage_pays),'NULL'),'null'),'')      AS pays,
+    NULLIF(NULLIF(NULLIF(TRIM(o.stage_entreprise),'NULL'),'null'),'') AS entreprise,
+    o.stage_debut::date AS date_debut,
+    o.stage_fin::date   AS date_fin
+  FROM ods.etudiants_clean o
+),
+filtered AS (
+  -- on garde seulement si l'entreprise existe ET (pays OU dates) existent
+  SELECT *
+  FROM base
+  WHERE entreprise IS NOT NULL
+    AND (pays IS NOT NULL OR date_debut IS NOT NULL OR date_fin IS NOT NULL)
+)
+SELECT pays, entreprise, date_debut, date_fin
+FROM filtered;
 ""","dimension_info_stage"),
 ]
 
