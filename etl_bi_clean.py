@@ -97,8 +97,6 @@ for col in ["date_naissance","date_embauche","stage_debut","stage_fin"]:
 mask = df["stage_fin"].notna() & df["stage_debut"].notna() & (df["stage_fin"] < df["stage_debut"])
 df.loc[mask, ["stage_debut","stage_fin"]] = df.loc[mask, ["stage_fin","stage_debut"]].values
 
-# Durée stage (entier nullable)
-df["stage_duree_j"] = (df["stage_fin"] - df["stage_debut"]).dt.days.astype("Int64")
 
 # Remplir stage_entreprise si vide avec entreprise
 df["stage_entreprise"] = df.apply(lambda r: coalesce(r.get("stage_entreprise"), r.get("entreprise")), axis=1)
@@ -129,7 +127,6 @@ agg_dict_year = {
     "stage_pays":"first",
     "stage_debut":"min",
     "stage_fin":"max",
-    "stage_duree_j":"max",
 }
 clean = df.groupby("_key_year", dropna=False).agg(agg_dict_year).reset_index(drop=True)
 

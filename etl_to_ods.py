@@ -9,9 +9,9 @@ BATCH_SIZE = 1000
 COLS = [
     "nom","prenom","date_naissance","annee","nationalite","ecole","matiere",
     "projet","description_projet","publie","entreprise","pays_entreprise",
-    "date_embauche","stage_entreprise","stage_pays","stage_debut","stage_fin","stage_duree_j"
+    "date_embauche","stage_entreprise","stage_pays","stage_debut","stage_fin"
 ]
-INT_COLS  = {"annee","stage_duree_j"}
+INT_COLS  = {"annee"}
 BOOL_COLS = {"publie"}
 
 def norm_empty(v):
@@ -66,8 +66,7 @@ def main():
       stage_entreprise   TEXT,
       stage_pays         TEXT,
       stage_debut        DATE,
-      stage_fin          DATE,
-      stage_duree_j      INT
+      stage_fin          DATE
     );
     """
 
