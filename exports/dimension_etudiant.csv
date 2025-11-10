@@ -1,0 +1,51 @@
+id_etudiant,nom,prenom,date_naissance,nationalite,id_employe
+1,Renaud,Renée,1995-03-14,Haïti,
+2,le Roux,Richard,1996-11-22,Saint-Marin (Rép. de),30.0
+3,Gaillard,Robert,1994-11-07,Ukraine,9.0
+4,Leduc,Louise,1995-04-30,Papouasie-Nouvelle-Guinée,35.0
+5,Barbier,Hélène,2001-06-20,Venezuela,
+6,Didier,Noémi,1997-03-29,Croatie,24.0
+7,Albert,Maryse,2004-02-17,Liechtenstein,23.0
+8,Mercier,Étienne,2001-11-03,Saint-Kitts et Nevis,
+9,Bernard,Geneviève,2000-03-26,Vanuatu,14.0
+10,Gay,Anaïs,2004-08-09,Botswana,20.0
+11,Thomas,Pierre,1995-12-03,Équateur,
+12,Rey,Isaac,1997-08-25,Panama,16.0
+13,Robin,Benjamin,2002-02-09,Ukraine,31.0
+14,Marques,Laure,1998-03-06,Cocos (Îles),17.0
+15,Lombard,Susan,1995-10-20,Égypte,
+16,Benard,Hélène,1997-07-06,Thailande,21.0
+17,Fontaine,Étienne,2001-11-11,Indonésie,6.0
+18,Guillaume,Laure,2004-10-05,Norvège,3.0
+19,Morvan,Xavier,2005-11-26,Indonésie,19.0
+20,Robin,Philippe,2002-03-14,Wallis et Futuna (Îles),
+21,Brun,Constance,2003-11-08,Nepal,
+22,Fournier,Charles,2005-08-19,Swaziland,7.0
+23,Perret,Thierry,1999-05-31,Corée du Nord,
+24,Maury,Dominique,2006-02-03,Costa Rica,5.0
+25,Guilbert,Alexandria,1997-04-12,Svalbard et Jan Mayen (Îles),
+26,Buisson,Cécile,1994-11-01,Dominique,33.0
+27,Thibault,Guy,1996-02-23,Guinée Equatoriale,2.0
+28,Cohen,Valérie,1996-11-19,Algérie,32.0
+29,Hernandez,Nathalie,2000-03-06,Tokelau,
+30,Lamy,Tristan,1998-04-29,Guinée Equatoriale,29.0
+31,Gomez,Maggie,1995-09-06,Syrie,15.0
+32,Chauveau,Louise,1998-06-29,Ethiopie,
+33,Chauveau,Aurore,2006-05-18,Anguilla,10.0
+34,Vaillant,Jérôme,1997-08-03,Pays-Bas,
+35,Gay,Adèle,1995-11-29,Gambie,
+36,Brun,Louise,2003-07-09,Tchad,1.0
+37,Lévêque,Lucy,1998-10-06,Libéria,12.0
+38,Blondel,Laurence,2007-03-27,Gabon,11.0
+39,Gaudin,Yves,2007-02-10,Malaisie,
+40,Mahe,Margot,2004-09-23,Guyane française,34.0
+41,Martel,Valérie,1995-02-11,Féroé (Îles),4.0
+42,Fabre,Astrid,2001-09-16,Nepal,18.0
+43,Vallet,Pénélope,2000-04-16,Luxembourg,25.0
+44,Pierre,Louise,1996-03-11,Montserrat,28.0
+45,Diallo,François,1999-05-24,Guinée-Bissau,26.0
+46,Brunel,Arthur,2003-04-14,République centrafricaine,27.0
+47,Blanc,Christophe,2000-04-26,Cap Vert,8.0
+48,Rémy,Marcel,1998-10-28,Oman,13.0
+49,Neveu,Charles,2005-12-15,Gambie,
+50,Aubert,Augustin,1998-12-04,Irak,22.0

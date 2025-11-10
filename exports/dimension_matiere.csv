@@ -1,0 +1,298 @@
+id_matiere,nom_matiere
+1,Chimie; Économie
+2,Chimie; Économie; Littérature; Mathématiques; Philosophie
+3,Biologie; Chimie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie; Physique
+4,Économie; Littérature; Mathématiques; Physique
+5,Informatique
+6,Philosophie
+7,Chimie; Histoire; Littérature; Mathématiques; Philosophie
+8,Économie; Informatique; Littérature
+9,Biologie; Chimie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie
+10,Biologie; Chimie; Économie; Informatique; Mathématiques; Physique
+11,Biologie; Chimie; Économie; Histoire; Littérature
+12,Économie
+13,Littérature
+14,Chimie
+15,Biologie; Chimie; Économie; Histoire; Littérature; Mathématiques; Philosophie
+16,Informatique; Littérature; Mathématiques; Physique
+17,Biologie; Chimie; Économie; Histoire; Informatique; Mathématiques
+18,Histoire; Informatique; Littérature
+19,Physique
+20,Chimie
+21,Biologie; Chimie; Informatique; Littérature; Mathématiques; Physique
+22,Économie; Histoire; Informatique; Littérature; Philosophie; Physique
+23,Informatique; Physique
+24,Chimie; Économie; Informatique; Littérature; Physique
+25,Philosophie
+26,Économie; Histoire
+27,Chimie; Économie; Histoire; Informatique; Littérature; Physique
+28,Chimie; Économie; Histoire; Littérature; Mathématiques
+29,Histoire
+30,Histoire; Littérature; Philosophie
+31,Chimie; Histoire; Littérature; Mathématiques; Philosophie
+32,Chimie; Mathématiques
+33,Biologie; Chimie; Économie; Informatique; Physique
+34,Chimie; Littérature; Mathématiques; Physique
+35,Informatique
+36,Chimie
+37,Chimie; Économie; Histoire; Mathématiques; Physique
+38,Biologie; Chimie; Économie; Informatique; Mathématiques; Philosophie
+39,Biologie; Économie
+40,Économie; Histoire; Philosophie
+41,Physique
+42,Biologie; Histoire; Littérature; Physique
+43,Biologie; Chimie; Histoire; Informatique; Littérature; Mathématiques; Physique
+44,Économie; Histoire
+45,Économie; Philosophie
+46,Biologie; Littérature
+47,Biologie; Chimie; Mathématiques
+48,Biologie; Économie; Informatique; Mathématiques
+49,Biologie; Économie; Histoire; Informatique; Littérature; Mathématiques
+50,Biologie; Économie
+51,Chimie; Économie; Mathématiques; Philosophie
+52,Biologie; Informatique; Mathématiques
+53,Biologie; Chimie; Économie; Informatique; Littérature; Mathématiques; Philosophie; Physique
+54,Biologie; Chimie; Économie; Mathématiques; Philosophie
+55,Biologie; Informatique; Littérature; Philosophie; Physique
+56,Économie
+57,Informatique; Mathématiques
+58,Littérature
+59,Chimie; Économie; Informatique; Littérature; Physique
+60,Biologie; Chimie; Mathématiques
+61,Biologie; Économie; Histoire; Littérature
+62,Biologie; Économie; Littérature; Philosophie
+63,Biologie; Économie; Informatique; Mathématiques
+64,Biologie; Économie; Informatique; Littérature; Philosophie
+65,Chimie; Économie; Histoire; Informatique; Mathématiques; Physique
+66,Littérature; Physique
+67,Littérature
+68,Économie; Littérature
+69,Économie
+70,Économie; Physique
+71,Physique
+72,Biologie; Chimie; Économie; Informatique; Littérature; Philosophie; Physique
+73,Biologie; Chimie; Histoire; Physique
+74,Économie; Histoire; Informatique; Littérature; Physique
+75,Histoire; Informatique
+76,Biologie; Chimie; Économie; Histoire; Mathématiques
+77,Économie; Histoire; Informatique; Littérature; Mathématiques
+78,Économie
+79,Biologie; Physique
+80,Chimie; Économie; Informatique; Philosophie
+81,Histoire; Littérature
+82,Chimie; Économie
+83,Informatique
+84,Biologie; Histoire; Mathématiques
+85,Mathématiques
+86,Économie; Informatique; Mathématiques; Philosophie
+87,Économie; Histoire; Littérature; Philosophie; Physique
+88,Chimie; Mathématiques; Physique
+89,Histoire; Mathématiques; Philosophie; Physique
+90,Biologie; Économie; Littérature; Philosophie; Physique
+91,Biologie; Histoire; Mathématiques; Philosophie
+92,Biologie; Économie; Informatique; Mathématiques; Philosophie; Physique
+93,Histoire
+94,Chimie
+95,Économie; Informatique; Littérature; Mathématiques
+96,Économie; Philosophie
+97,Économie; Littérature
+98,Informatique; Physique
+99,Biologie; Économie; Informatique
+100,Biologie; Économie
+101,Informatique; Mathématiques; Philosophie
+102,Chimie; Économie; Littérature
+103,Économie; Histoire; Informatique; Mathématiques; Philosophie; Physique
+104,Économie; Histoire; Littérature; Mathématiques; Philosophie
+105,Histoire; Informatique; Mathématiques; Philosophie
+106,Économie
+107,Littérature
+108,Biologie; Histoire; Littérature; Mathématiques; Philosophie
+109,Biologie
+110,Économie
+111,Informatique; Littérature
+112,Philosophie
+113,Chimie; Économie; Histoire; Informatique; Physique
+114,Biologie; Chimie; Économie; Littérature
+115,Chimie; Économie; Littérature; Mathématiques; Physique
+116,Biologie; Chimie; Économie; Histoire; Littérature; Mathématiques; Philosophie
+117,Biologie; Informatique; Philosophie
+118,Biologie; Économie; Informatique; Mathématiques; Philosophie
+119,Biologie; Chimie; Histoire; Philosophie; Physique
+120,Chimie; Philosophie
+121,Chimie; Économie
+122,Informatique; Physique
+123,Biologie; Chimie; Économie; Informatique; Littérature; Mathématiques; Philosophie; Physique
+124,Histoire; Philosophie
+125,Chimie; Informatique
+126,Chimie; Économie
+127,Chimie; Économie; Informatique; Littérature
+128,Économie; Mathématiques; Physique
+129,Biologie; Économie; Histoire; Informatique; Mathématiques
+130,Économie; Littérature; Philosophie
+131,Mathématiques
+132,Économie; Informatique; Philosophie
+133,Chimie; Informatique; Philosophie; Physique
+134,Informatique; Mathématiques
+135,Chimie; Informatique
+136,Chimie; Économie; Histoire; Informatique; Mathématiques; Philosophie
+137,Biologie; Philosophie; Physique
+138,Biologie; Économie; Informatique; Mathématiques; Physique
+139,Biologie; Chimie; Économie; Informatique; Mathématiques; Philosophie
+140,Économie; Histoire; Littérature; Mathématiques; Physique
+141,Chimie; Économie; Histoire; Mathématiques
+142,Littérature
+143,Histoire
+144,Biologie; Littérature; Philosophie
+145,Économie; Histoire; Informatique
+146,Mathématiques; Philosophie
+147,Chimie; Informatique
+148,Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie
+149,Chimie; Économie; Histoire; Informatique; Philosophie
+150,Informatique
+151,Biologie; Économie; Histoire; Informatique
+152,Biologie; Économie; Histoire; Physique
+153,Biologie; Chimie; Histoire; Informatique; Philosophie
+154,Biologie; Économie; Informatique; Littérature; Mathématiques; Philosophie; Physique
+155,Biologie; Chimie
+156,Histoire
+157,Biologie; Économie; Philosophie
+158,Biologie; Économie
+159,Philosophie; Physique
+160,Chimie; Physique
+161,Biologie; Mathématiques
+162,Chimie
+163,Chimie; Histoire; Informatique; Littérature; Philosophie
+164,Biologie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie; Physique
+165,Histoire
+166,Biologie; Informatique; Physique
+167,Chimie; Philosophie
+168,Chimie; Économie
+169,Informatique; Littérature
+170,Économie; Informatique; Mathématiques; Philosophie
+171,Biologie; Chimie; Économie; Littérature; Philosophie; Physique
+172,Biologie; Chimie; Économie; Histoire; Informatique; Mathématiques; Philosophie; Physique
+173,Chimie; Physique
+174,Biologie; Chimie; Histoire; Littérature; Physique
+175,Littérature; Mathématiques
+176,Chimie; Économie; Philosophie; Physique
+177,Biologie; Économie; Philosophie; Physique
+178,Chimie; Économie; Informatique; Littérature; Philosophie; Physique
+179,Physique
+180,Chimie; Informatique; Littérature; Mathématiques
+181,Chimie; Économie; Mathématiques; Philosophie; Physique
+182,Chimie; Économie; Physique
+183,Informatique; Littérature
+184,Chimie; Philosophie; Physique
+185,Économie
+186,Histoire; Informatique; Littérature; Philosophie
+187,Chimie; Économie
+188,Économie; Informatique; Philosophie
+189,Biologie; Chimie; Économie; Informatique; Littérature; Mathématiques; Philosophie
+190,Histoire; Philosophie; Physique
+191,Biologie
+192,Économie; Littérature; Physique
+193,Biologie; Histoire
+194,Biologie; Économie; Histoire; Philosophie
+195,Informatique; Mathématiques
+196,Biologie; Économie; Histoire; Littérature; Mathématiques; Philosophie
+197,Philosophie; Physique
+198,Économie; Histoire; Informatique; Littérature; Philosophie
+199,Biologie; Histoire; Informatique; Littérature
+200,Biologie; Chimie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie; Physique
+201,Histoire; Mathématiques; Philosophie; Physique
+202,Chimie; Littérature
+203,Philosophie
+204,Physique
+205,Économie; Histoire; Informatique; Philosophie
+206,Biologie; Chimie; Économie; Mathématiques
+207,Biologie; Littérature
+208,Biologie; Chimie; Économie; Littérature; Mathématiques
+209,Mathématiques; Philosophie
+210,Informatique; Littérature
+211,Biologie; Économie; Mathématiques
+212,Physique
+213,Biologie; Chimie; Littérature; Physique
+214,Chimie; Philosophie; Physique
+215,Biologie; Physique
+216,Biologie; Économie; Informatique; Mathématiques
+217,Biologie; Chimie; Économie; Informatique; Littérature; Mathématiques; Philosophie
+218,Chimie; Économie; Informatique; Littérature; Philosophie; Physique
+219,Chimie; Économie; Littérature
+220,Biologie; Économie; Histoire
+221,Chimie; Histoire
+222,Biologie
+223,Biologie; Histoire
+224,Biologie; Chimie; Économie; Informatique; Littérature; Physique
+225,Biologie; Histoire; Informatique; Littérature; Mathématiques; Physique
+226,Physique
+227,Biologie; Économie; Littérature; Philosophie
+228,Biologie; Chimie; Informatique; Littérature; Physique
+229,Économie; Informatique; Littérature; Mathématiques; Philosophie
+230,Économie; Physique
+231,Chimie; Histoire; Mathématiques
+232,Philosophie
+233,Biologie; Mathématiques
+234,Chimie; Histoire
+235,Biologie; Économie; Histoire; Informatique; Littérature; Mathématiques
+236,Philosophie; Physique
+237,Biologie; Informatique; Littérature; Philosophie
+238,Économie; Philosophie
+239,Biologie; Chimie; Économie; Histoire; Informatique; Physique
+240,Économie; Informatique; Mathématiques
+241,Biologie; Informatique; Littérature; Mathématiques
+242,Chimie; Informatique; Philosophie; Physique
+243,Histoire; Littérature; Philosophie
+244,Chimie; Histoire; Littérature
+245,Littérature; Mathématiques
+246,Biologie; Économie; Informatique; Littérature; Mathématiques; Philosophie; Physique
+247,Biologie; Économie; Histoire; Informatique; Mathématiques; Philosophie
+248,Chimie; Économie; Histoire; Littérature; Philosophie; Physique
+249,Physique
+250,Physique
+251,Mathématiques
+252,Littérature
+253,Histoire; Physique
+254,Économie; Mathématiques
+255,Histoire; Philosophie; Physique
+256,Histoire; Informatique
+257,Chimie; Économie; Littérature; Mathématiques; Philosophie
+258,Informatique; Littérature; Mathématiques; Philosophie
+259,Chimie; Économie; Histoire; Philosophie
+260,Chimie; Économie; Histoire; Mathématiques; Philosophie; Physique
+261,Économie; Histoire; Mathématiques; Philosophie
+262,Biologie; Économie; Physique
+263,Chimie; Mathématiques; Philosophie
+264,Biologie; Économie; Informatique; Philosophie; Physique
+265,Économie; Informatique; Littérature; Physique
+266,Chimie
+267,Biologie; Chimie; Économie; Informatique; Littérature; Mathématiques; Physique
+268,Biologie; Chimie; Économie; Histoire
+269,Économie; Histoire; Littérature
+270,Biologie
+271,Chimie; Économie; Littérature
+272,Économie; Physique
+273,Chimie; Physique
+274,Économie
+275,Littérature; Philosophie
+276,Biologie; Chimie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie; Physique
+277,Chimie; Informatique; Mathématiques; Physique
+278,Biologie; Chimie; Économie; Philosophie; Physique
+279,Histoire
+280,Chimie; Économie; Informatique; Littérature; Mathématiques; Philosophie; Physique
+281,Biologie; Économie; Histoire; Mathématiques
+282,Biologie; Chimie; Informatique
+283,Économie; Philosophie
+284,Biologie
+285,Chimie; Physique
+286,Biologie; Chimie; Littérature; Physique
+287,Économie; Informatique; Littérature; Mathématiques; Physique
+288,Économie; Histoire; Littérature; Mathématiques
+289,Économie; Physique
+290,Biologie; Chimie; Histoire
+291,Mathématiques
+292,Philosophie
+293,Chimie; Informatique
+294,Littérature; Mathématiques
+295,Biologie; Histoire
+296,Chimie; Économie; Philosophie
+297,Biologie; Chimie; Économie; Histoire; Informatique; Littérature; Mathématiques; Philosophie; Physique
