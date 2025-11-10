@@ -2,9 +2,16 @@ import os, sys, csv
 from pathlib import Path
 import psycopg
 
-DATABASE_URL = "postgresql://admin:password@localhost:5432/BIPostgres"
-CSV_RELATIVE = "clean/source_bruit_1000_final_clean_annee.csv"
-BATCH_SIZE = 1000
+# Load .env if present (optional)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except Exception:
+    pass
+
+DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://admin:password@localhost:5432/BIPostgres")
+CSV_RELATIVE = os.environ.get("CSV_RELATIVE", "clean/source_bruit_1000_final_clean_annee.csv")
+BATCH_SIZE = int(os.environ.get("BATCH_SIZE", "1000"))
 
 COLS = [
     "nom","prenom","date_naissance","annee","nationalite","ecole","matiere",

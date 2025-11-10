@@ -3,10 +3,102 @@ import os, re, unicodedata, json
 import pandas as pd
 from datetime import datetime
 
-# ========= Paramètres =========
-SRC = "source_bruit_1000_final.xlsx"   # chemin du fichier source
-OUT_DIR = "clean"                      # dossier de sortie
-os.makedirs(OUT_DIR, exist_ok=True)
+
+import argparse
+
+def main(src: str = "source_bruit_1000_final.xlsx", out_dir: str = "clean"):
+    os.makedirs(out_dir, exist_ok=True)
+
+    # ========= Lecture =========
+    rename_map = {
+        "Nom":"nom","Prénom":"prenom","Date_Naissance":"date_naissance","Nationalité":"nationalite",
+        "École":"ecole","Matière":"matiere","Année":"annee","Projet":"projet","Description_Projet":"description_projet",
+        "Publié":"publie","Entreprise":"entreprise","Pays_Entreprise":"pays_entreprise","Date_Embauche":"date_embauche",
+        "Stage_Entreprise":"stage_entreprise","Stage_Pays":"stage_pays","Stage_Début":"stage_debut","Stage_Fin":"stage_fin"
+    }
+    df = pd.read_excel(src, sheet_name=0).rename(columns=rename_map)
+
+    # ========= Nettoyage de base =========
+    for col in ["nom","prenom","nationalite","ecole","matiere","projet","description_projet",
+                "entreprise","pays_entreprise","stage_entreprise","stage_pays"]:
+        if col in df: df[col] = df[col].apply(clean_text)
+
+    df["nom"] = df["nom"].apply(proper_case_name)
+    df["prenom"] = df["prenom"].apply(proper_case_name)
+    df["annee"] = pd.to_numeric(df.get("annee"), errors="coerce").astype("Int64")
+
+    if "publie" in df:
+        df["publie"] = df["publie"].apply(to_bool).astype("boolean")
+
+    for col in ["date_naissance","date_embauche","stage_debut","stage_fin"]:
+        if col in df: df[col] = df[col].apply(parse_date)
+
+    mask = df["stage_fin"].notna() & df["stage_debut"].notna() & (df["stage_fin"] < df["stage_debut"])
+    df.loc[mask, ["stage_debut","stage_fin"]] = df.loc[mask, ["stage_fin","stage_debut"]].values
+
+    # Remplir stage_entreprise si vide avec entreprise
+    df["stage_entreprise"] = df.apply(lambda r: coalesce(r.get("stage_entreprise"), r.get("entreprise")), axis=1)
+
+    # ========= Dédup & agrégation (Personne × Année) =========
+    df["_key_year"] = df.apply(lambda r: "|".join([
+        strip_accents_lower(coalesce(r.get("nom",""))),
+        strip_accents_lower(coalesce(r.get("prenom",""))),
+        str(pd.to_datetime(r["date_naissance"]).date() if pd.notna(r.get("date_naissance")) else ""),
+        str(r["annee"]) if pd.notna(r.get("annee")) else ""
+    ]), axis=1)
+
+    agg_dict_year = {
+        "nom":"first",
+        "prenom":"first",
+        "date_naissance":"first",
+        "annee":"first",
+        "nationalite":"first",
+        "ecole":"first",
+        "matiere": lambda s: agg_list_unique(s, "; "),  # matières regroupées uniques
+        "projet":"first",
+        "description_projet":agg_text_longest,
+        "publie":agg_bool,                    # OR logique
+        "entreprise":"first",
+        "pays_entreprise":"first",
+        "date_embauche":"max",
+        "stage_entreprise":"first",
+        "stage_pays":"first",
+        "stage_debut":"min",
+        "stage_fin":"max",
+    }
+    clean = df.groupby("_key_year", dropna=False).agg(agg_dict_year).reset_index(drop=True)
+
+    # ========= Post-traitements =========
+    if "publie" in clean.columns:
+        clean["publie"] = clean["publie"].map({True: "True", False: "False"}).fillna("NULL")
+
+    date_cols = ["date_naissance","date_embauche","stage_debut","stage_fin"]
+    for c in date_cols:
+        if c in clean.columns:
+            clean[c] = pd.to_datetime(clean[c], errors="coerce").dt.strftime("%Y-%m-%d").fillna("")
+
+    # ========= Exports =========
+    out_csv  = os.path.join(out_dir, "source_bruit_1000_final_clean_annee.csv")
+    out_xlsx = os.path.join(out_dir, "source_bruit_1000_final_clean_annee.xlsx")
+    report_json = os.path.join(out_dir, "data_quality_report.json")
+
+    clean.to_csv(out_csv, index=False, encoding="utf-8")
+    with pd.ExcelWriter(out_xlsx, engine="xlsxwriter") as w:
+        clean.to_excel(w, index=False, sheet_name="clean_by_year")
+
+    # Petit rapport de contrôle
+    dq = {
+        "nb_lignes_sortie": len(clean),
+        "compte_publie": clean["publie"].value_counts(dropna=False).to_dict(),
+        "dates_vides": {c:int((clean[c] == "").sum()) for c in date_cols},
+    }
+    with open(report_json, "w", encoding="utf-8") as f:
+        json.dump(dq, f, ensure_ascii=False, indent=2)
+
+    print("Nettoyage terminé")
+    print("→", out_csv)
+    print("→", out_xlsx)
+    print("→", report_json)
 
 # ========= Utilitaires =========
 def normalize_spaces(s):
@@ -70,95 +162,105 @@ def agg_list_unique(series, sep="; "):
     vals = sorted(set([v.strip() for v in series.dropna().astype(str) if v.strip()]))
     return sep.join(vals) if vals else None
 
-# ========= Lecture =========
-rename_map = {
-    "Nom":"nom","Prénom":"prenom","Date_Naissance":"date_naissance","Nationalité":"nationalite",
-    "École":"ecole","Matière":"matiere","Année":"annee","Projet":"projet","Description_Projet":"description_projet",
-    "Publié":"publie","Entreprise":"entreprise","Pays_Entreprise":"pays_entreprise","Date_Embauche":"date_embauche",
-    "Stage_Entreprise":"stage_entreprise","Stage_Pays":"stage_pays","Stage_Début":"stage_debut","Stage_Fin":"stage_fin"
-}
-df = pd.read_excel(SRC, sheet_name=0).rename(columns=rename_map)
-
-# ========= Nettoyage de base =========
-for col in ["nom","prenom","nationalite","ecole","matiere","projet","description_projet",
-            "entreprise","pays_entreprise","stage_entreprise","stage_pays"]:
-    if col in df: df[col] = df[col].apply(clean_text)
-
-df["nom"] = df["nom"].apply(proper_case_name)
-df["prenom"] = df["prenom"].apply(proper_case_name)
-df["annee"] = pd.to_numeric(df.get("annee"), errors="coerce").astype("Int64")
-
-if "publie" in df:
-    df["publie"] = df["publie"].apply(to_bool).astype("boolean")
-
-for col in ["date_naissance","date_embauche","stage_debut","stage_fin"]:
-    if col in df: df[col] = df[col].apply(parse_date)
-
-mask = df["stage_fin"].notna() & df["stage_debut"].notna() & (df["stage_fin"] < df["stage_debut"])
-df.loc[mask, ["stage_debut","stage_fin"]] = df.loc[mask, ["stage_fin","stage_debut"]].values
 
 
-# Remplir stage_entreprise si vide avec entreprise
-df["stage_entreprise"] = df.apply(lambda r: coalesce(r.get("stage_entreprise"), r.get("entreprise")), axis=1)
 
-# ========= Dédup & agrégation (Personne × Année) =========
-df["_key_year"] = df.apply(lambda r: "|".join([
-    strip_accents_lower(coalesce(r.get("nom",""))),
-    strip_accents_lower(coalesce(r.get("prenom",""))),
-    str(pd.to_datetime(r["date_naissance"]).date() if pd.notna(r.get("date_naissance")) else ""),
-    str(r["annee"]) if pd.notna(r.get("annee")) else ""
-]), axis=1)
 
-agg_dict_year = {
-    "nom":"first",
-    "prenom":"first",
-    "date_naissance":"first",
-    "annee":"first",
-    "nationalite":"first",
-    "ecole":"first",
-    "matiere": lambda s: agg_list_unique(s, "; "),  # matières regroupées uniques
-    "projet":"first",
-    "description_projet":agg_text_longest,
-    "publie":agg_bool,                    # OR logique
-    "entreprise":"first",
-    "pays_entreprise":"first",
-    "date_embauche":"max",
-    "stage_entreprise":"first",
-    "stage_pays":"first",
-    "stage_debut":"min",
-    "stage_fin":"max",
-}
-clean = df.groupby("_key_year", dropna=False).agg(agg_dict_year).reset_index(drop=True)
+    # ========= Lecture =========
+    rename_map = {
+        "Nom":"nom","Prénom":"prenom","Date_Naissance":"date_naissance","Nationalité":"nationalite",
+        "École":"ecole","Matière":"matiere","Année":"annee","Projet":"projet","Description_Projet":"description_projet",
+        "Publié":"publie","Entreprise":"entreprise","Pays_Entreprise":"pays_entreprise","Date_Embauche":"date_embauche",
+        "Stage_Entreprise":"stage_entreprise","Stage_Pays":"stage_pays","Stage_Début":"stage_debut","Stage_Fin":"stage_fin"
+    }
+    df = pd.read_excel(src, sheet_name=0).rename(columns=rename_map)
 
-# ========= Post-traitements =========
+    # ========= Nettoyage de base =========
+    for col in ["nom","prenom","nationalite","ecole","matiere","projet","description_projet",
+                "entreprise","pays_entreprise","stage_entreprise","stage_pays"]:
+        if col in df: df[col] = df[col].apply(clean_text)
 
-if "publie" in clean.columns:
-    clean["publie"] = clean["publie"].map({True: "True", False: "False"}).fillna("NULL")
+    df["nom"] = df["nom"].apply(proper_case_name)
+    df["prenom"] = df["prenom"].apply(proper_case_name)
+    df["annee"] = pd.to_numeric(df.get("annee"), errors="coerce").astype("Int64")
 
-date_cols = ["date_naissance","date_embauche","stage_debut","stage_fin"]
-for c in date_cols:
-    if c in clean.columns:
-        clean[c] = pd.to_datetime(clean[c], errors="coerce").dt.strftime("%Y-%m-%d").fillna("")
+    if "publie" in df:
+        df["publie"] = df["publie"].apply(to_bool).astype("boolean")
 
-# ========= Exports =========
-out_csv  = os.path.join(OUT_DIR, "source_bruit_1000_final_clean_annee.csv")
-out_xlsx = os.path.join(OUT_DIR, "source_bruit_1000_final_clean_annee.xlsx")
-report_json = os.path.join(OUT_DIR, "data_quality_report.json")
+    for col in ["date_naissance","date_embauche","stage_debut","stage_fin"]:
+        if col in df: df[col] = df[col].apply(parse_date)
 
-clean.to_csv(out_csv, index=False, encoding="utf-8")
-with pd.ExcelWriter(out_xlsx, engine="xlsxwriter") as w:
-    clean.to_excel(w, index=False, sheet_name="clean_by_year")
+    mask = df["stage_fin"].notna() & df["stage_debut"].notna() & (df["stage_fin"] < df["stage_debut"])
+    df.loc[mask, ["stage_debut","stage_fin"]] = df.loc[mask, ["stage_fin","stage_debut"]].values
 
-# Petit rapport de contrôle
-dq = {
-    "nb_lignes_sortie": len(clean),
-    "compte_publie": clean["publie"].value_counts(dropna=False).to_dict(),
-    "dates_vides": {c:int((clean[c] == "").sum()) for c in date_cols},
-}
-with open(report_json, "w", encoding="utf-8") as f:
-    json.dump(dq, f, ensure_ascii=False, indent=2)
+    # Remplir stage_entreprise si vide avec entreprise
+    df["stage_entreprise"] = df.apply(lambda r: coalesce(r.get("stage_entreprise"), r.get("entreprise")), axis=1)
 
-print("Nettoyage terminés la team")
-print("→", out_csv)
-print("→", out_xlsx)
-print("→", report_json)
+    # ========= Dédup & agrégation (Personne × Année) =========
+    df["_key_year"] = df.apply(lambda r: "|".join([
+        strip_accents_lower(coalesce(r.get("nom",""))),
+        strip_accents_lower(coalesce(r.get("prenom",""))),
+        str(pd.to_datetime(r["date_naissance"]).date() if pd.notna(r.get("date_naissance")) else ""),
+        str(r["annee"]) if pd.notna(r.get("annee")) else ""
+    ]), axis=1)
+
+    agg_dict_year = {
+        "nom":"first",
+        "prenom":"first",
+        "date_naissance":"first",
+        "annee":"first",
+        "nationalite":"first",
+        "ecole":"first",
+        "matiere": lambda s: agg_list_unique(s, "; "),  # matières regroupées uniques
+        "projet":"first",
+        "description_projet":agg_text_longest,
+        "publie":agg_bool,                    # OR logique
+        "entreprise":"first",
+        "pays_entreprise":"first",
+        "date_embauche":"max",
+        "stage_entreprise":"first",
+        "stage_pays":"first",
+        "stage_debut":"min",
+        "stage_fin":"max",
+    }
+    clean = df.groupby("_key_year", dropna=False).agg(agg_dict_year).reset_index(drop=True)
+
+    # ========= Post-traitements =========
+    if "publie" in clean.columns:
+        clean["publie"] = clean["publie"].map({True: "True", False: "False"}).fillna("NULL")
+
+    date_cols = ["date_naissance","date_embauche","stage_debut","stage_fin"]
+    for c in date_cols:
+        if c in clean.columns:
+            clean[c] = pd.to_datetime(clean[c], errors="coerce").dt.strftime("%Y-%m-%d").fillna("")
+
+    # ========= Exports =========
+    out_csv  = os.path.join(out_dir, "source_bruit_1000_final_clean_annee.csv")
+    out_xlsx = os.path.join(out_dir, "source_bruit_1000_final_clean_annee.xlsx")
+    report_json = os.path.join(out_dir, "data_quality_report.json")
+
+    clean.to_csv(out_csv, index=False, encoding="utf-8")
+    with pd.ExcelWriter(out_xlsx, engine="xlsxwriter") as w:
+        clean.to_excel(w, index=False, sheet_name="clean_by_year")
+
+    # Petit rapport de contrôle
+    dq = {
+        "nb_lignes_sortie": len(clean),
+        "compte_publie": clean["publie"].value_counts(dropna=False).to_dict(),
+        "dates_vides": {c:int((clean[c] == "").sum()) for c in date_cols},
+    }
+    with open(report_json, "w", encoding="utf-8") as f:
+        json.dump(dq, f, ensure_ascii=False, indent=2)
+
+    print("Nettoyage terminé")
+    print("→", out_csv)
+    print("→", out_xlsx)
+    print("→", report_json)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Nettoyage du fichier source et génération d'un CSV/XLSX nettoyé")
+    parser.add_argument("src", nargs="?", default="source_bruit_1000_final.xlsx", help="Chemin vers le fichier source Excel")
+    parser.add_argument("--out", default="clean", help="Dossier de sortie")
+    args = parser.parse_args()
+    main(args.src, args.out)
