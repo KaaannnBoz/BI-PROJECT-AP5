@@ -15,7 +15,7 @@ fi
 # Fallback: valeurs par défaut si non définies
 # -----------------------------
 DATABASE_URL="${DATABASE_URL:-postgresql://admin:password@localhost:5432/BIPostgres}"
-RCLONE_REMOTE_EXPORT="${RCLONE_REMOTE_EXPORT:-onedrive:ETL_clean}"
+RCLONE_REMOTE_EXPORT="${RCLONE_REMOTE_EXPORT:-sharepoint_bi:General/PowerBi/csv}"
 
 export DATABASE_URL
 export RCLONE_REMOTE_EXPORT
@@ -33,9 +33,7 @@ python3 etl_bi_clean.py "$SRC" --out clean
 
 if [ -z "${DATABASE_URL}" ]; then
   echo "WARNING: DATABASE_URL vide. ODS, DWH et export CSV seront sautés."
-fi
-
-if [ -n "${DATABASE_URL}" ]; then
+else
   echo "2) Chargement ODS -> Postgres"
   python3 etl_to_ods.py clean/source_bruit_1000_final_clean_annee.csv --batch 1000
 
@@ -44,8 +42,6 @@ if [ -n "${DATABASE_URL}" ]; then
 
   echo "4) Export DWH -> CSV (exports/)"
   python3 export_dwh_to_csv.py
-else
-  echo "2-4) Saut ODS/DWH/export (pas de DATABASE_URL)"
 fi
 
 echo "5) Upload exports -> $RCLONE_REMOTE_EXPORT"
@@ -54,4 +50,4 @@ echo "5) Upload exports -> $RCLONE_REMOTE_EXPORT"
   exit 5
 }
 
-echo "Pipeline terminé ✅"
+echo "Pipeline terminé"
