@@ -43,7 +43,7 @@ def main():
     if not csv_path.exists():
         raise SystemExit(f"CSV introuvable : {csv_path}")
 
-    with open(csv_path, "r", encoding="utf-8") as f:
+    with open(csv_path, "r", encoding="utf-8-sig") as f:
         num_lines = sum(1 for _ in f)
     if num_lines <= 1:
         raise SystemExit(f"Le CSV ne contient pas de données (wc -l = {num_lines}).")
@@ -91,7 +91,7 @@ def main():
             cur.execute(DDL)
 
             print("📥 Insertion par batch…")
-            with open(csv_path, "r", encoding="utf-8", newline="") as f:
+            with open(csv_path, "r", encoding="utf-8-sig", newline="") as f:
                 reader = csv.DictReader(f)
                 missing = [c for c in COLS if c not in reader.fieldnames]
                 if missing:
