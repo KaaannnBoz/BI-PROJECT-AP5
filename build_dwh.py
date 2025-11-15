@@ -2,7 +2,6 @@
 import os
 import psycopg
 
-# On récupère la variable d'environnement du pipeline
 DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://admin:password@localhost:5432/BIPostgres")
 
 DDL = """
@@ -71,10 +70,9 @@ CREATE INDEX ON dwh.fait_annee (annee);
 CREATE INDEX ON dwh.fait_annee (id_etudiant);
 """
 
-# Listes des étapes dimensionnelles
 STEPS_SQL = [
 
-    # Dimension employé
+    # ================= DIM EMPLOYE =================
     ("""
         INSERT INTO dwh.dimension_employe (date_embauche, entreprise, pays)
         SELECT DISTINCT
@@ -83,11 +81,11 @@ STEPS_SQL = [
             NULLIF(o.pays_entreprise,'')
         FROM ods.etudiants_clean o
         WHERE o.date_embauche IS NOT NULL
-           OR NULLIF(o.entreprise,'') IS NOT NULL
-           OR NULLIF(o.pays_entreprise,'') IS NOT NULL;
-     """, "dimension_employe"),
+          AND NULLIF(o.entreprise,'') IS NOT NULL
+          AND NULLIF(o.pays_entreprise,'') IS NOT NULL;
+    """, "dimension_employe"),
 
-    # Étudiant
+    # ================= DIM ETUDIANT =================
     ("""
         INSERT INTO dwh.dimension_etudiant (nom, prenom, date_naissance, nationalite, id_employe)
         SELECT DISTINCT
@@ -95,12 +93,12 @@ STEPS_SQL = [
             e.id_employe
         FROM ods.etudiants_clean o
         LEFT JOIN dwh.dimension_employe e
-          ON e.entreprise = NULLIF(o.entreprise,'')
-         AND e.pays       = NULLIF(o.pays_entreprise,'')
-         AND (e.date_embauche IS NOT DISTINCT FROM o.date_embauche);
+               ON e.entreprise = NULLIF(o.entreprise,'')
+              AND e.pays       = NULLIF(o.pays_entreprise,'')
+              AND (e.date_embauche IS NOT DISTINCT FROM o.date_embauche);
     """, "dimension_etudiant"),
 
-    # École
+    # ================= DIM ECOLE =================
     ("""
         INSERT INTO dwh.dimension_ecole (nom_ecole)
         SELECT DISTINCT NULLIF(o.ecole,'')
@@ -109,7 +107,7 @@ STEPS_SQL = [
         ON CONFLICT (nom_ecole) DO NOTHING;
     """, "dimension_ecole"),
 
-    # Projet
+    # ================= DIM PROJET =================
     ("""
         INSERT INTO dwh.dimension_projet (nom_projet, description, publier)
         SELECT DISTINCT
@@ -119,25 +117,23 @@ STEPS_SQL = [
         FROM ods.etudiants_clean o;
     """, "dimension_projet"),
 
-    # Info stage
+    # ================= DIM STAGE (CORRIGÉE) =================
     ("""
         INSERT INTO dwh.dimension_info_stage (pays, entreprise, date_debut, date_fin)
         WITH base AS (
           SELECT DISTINCT
-            NULLIF(TRIM(o.stage_pays),'') AS pays,
-            NULLIF(TRIM(o.stage_entreprise),'') AS entreprise,
+            NULLIF(TRIM(o.stage_pays),'')         AS pays,
+            NULLIF(TRIM(o.stage_entreprise),'')   AS entreprise,
             o.stage_debut::date AS date_debut,
             o.stage_fin::date   AS date_fin
           FROM ods.etudiants_clean o
-        ),
-        filtered AS (
-          SELECT *
-          FROM base
-          WHERE entreprise IS NOT NULL
-            AND (pays IS NOT NULL OR date_debut IS NOT NULL OR date_fin IS NOT NULL)
         )
-        SELECT pays, entreprise, date_debut, date_fin
-        FROM filtered;
+        SELECT *
+        FROM base
+        WHERE entreprise IS NOT NULL
+           OR pays IS NOT NULL
+           OR date_debut IS NOT NULL
+           OR date_fin IS NOT NULL;
     """, "dimension_info_stage"),
 
 ]
@@ -152,14 +148,14 @@ def main():
         print("🧱 Recréation du DWH…")
         cur.execute(DDL)
 
-        # Exécution des dimensions
+        # Charger les dimensions
         for sql, name in STEPS_SQL:
             print(f"➡️  Chargement {name} …")
             cur.execute(sql)
             cur.execute(f"SELECT COUNT(*) FROM dwh.{name};")
             print(f"   ✅ {name}: {cur.fetchone()[0]} lignes")
 
-        # Agrégation matières
+        # ========== AGRÉGATION MATIÈRES ==========
         print("🧩 Agrégation matières par étudiant/année…")
 
         cur.execute("""
@@ -185,14 +181,13 @@ def main():
               GROUP BY id_etudiant, annee
             )
             SELECT id_etudiant, annee, array_to_string(mats, '; ') AS matieres_text
-            FROM agg
-            ORDER BY id_etudiant, annee;
+            FROM agg;
         """)
         rows = cur.fetchall()
 
-        # Insérer dimension_matiere
         print("📝 Insertion dimension_matiere…")
         mapping = []
+
         for id_etudiant, annee, mat in rows:
             cur.execute(
                 "INSERT INTO dwh.dimension_matiere (nom_matiere) VALUES (%s) RETURNING id_matiere;",
@@ -201,22 +196,20 @@ def main():
             id_matiere = cur.fetchone()[0]
             mapping.append((id_etudiant, annee, id_matiere))
 
-        # Table temporaire pour joindre proprement
+        # temp table
         cur.execute("DROP TABLE IF EXISTS _map_matiere;")
         cur.execute("""
             CREATE TEMP TABLE _map_matiere(
                 id_etudiant BIGINT,
                 annee INT,
                 id_matiere BIGINT
-            ) ON COMMIT PRESERVE ROWS;
+            );
         """)
-        cur.executemany(
-            "INSERT INTO _map_matiere VALUES (%s,%s,%s);",
-            mapping
-        )
+        cur.executemany("INSERT INTO _map_matiere VALUES (%s,%s,%s);", mapping)
 
-        # Table de faits
+        # ========== TABLE DES FAITS ==========
         print("📦 Insertion fait_annee…")
+
         cur.execute("""
             INSERT INTO dwh.fait_annee (annee, id_ecole, id_stage, id_etudiant, id_projet, id_matiere)
             SELECT
@@ -243,9 +236,7 @@ def main():
              AND st.date_fin    IS NOT DISTINCT FROM o.stage_fin
             JOIN _map_matiere mp
               ON mp.id_etudiant = et.id_etudiant
-             AND mp.annee       = o.annee
-            WHERE o.annee IS NOT NULL
-            GROUP BY o.annee, ec.id_ecole, st.id_stage, et.id_etudiant, pr.id_projet, mp.id_matiere;
+             AND mp.annee       = o.annee;
         """)
 
         for name in ["dimension_matiere", "fait_annee"]:
