@@ -35,7 +35,7 @@ ORDER BY et.id_etudiant, f.annee;
 
 def export_query(conn, sql, path):
     df = pd.read_sql_query(sql, conn)
-    df.to_csv(path, index=False, sep=SEP, encoding="utf-8")
+    df.to_csv(path, index=False, sep=SEP, encoding="utf-8-sig")
     print(f"✅ {path} ({len(df)} lignes)")
 
 def main():

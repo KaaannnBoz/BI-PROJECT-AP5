@@ -1,0 +1,10 @@
+pandas>=1.3
+psycopg[binary]>=3.1
+openpyxl>=3.0
+xlsxwriter>=3.0
+
+# Optional / dev
+python-dotenv>=0.21.0  # if you prefer loading DATABASE_URL from a .env file
+
+# Note: rclone is NOT a Python package and must be installed separately.
+# Install rclone on macOS: `brew install rclone` or see https://rclone.org/install/
