@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# -----------------------------
-# Chargement auto du fichier .env si présent
-# -----------------------------
 if [ -f ".env" ]; then
   echo "Chargement des variables depuis .env"
   set -o allexport
@@ -11,9 +8,6 @@ if [ -f ".env" ]; then
   set +o allexport
 fi
 
-# -----------------------------
-# Fallback: valeurs par défaut si non définies
-# -----------------------------
 DATABASE_URL="${DATABASE_URL:-postgresql://admin:password@localhost:5432/BIPostgres}"
 RCLONE_REMOTE_EXPORT="${RCLONE_REMOTE_EXPORT:-sharepoint_bi:General/PowerBi/csv}"
 
@@ -23,9 +17,6 @@ export RCLONE_REMOTE_EXPORT
 echo "DATABASE_URL = $DATABASE_URL"
 echo "RCLONE_REMOTE_EXPORT = $RCLONE_REMOTE_EXPORT"
 
-# -----------------------------
-# Source input
-# -----------------------------
 SRC=${1:-source_bruit_1000_final.xlsx}
 
 echo "1) Nettoyage -> dossier clean/"

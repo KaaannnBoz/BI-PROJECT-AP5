@@ -131,9 +131,9 @@ STEPS_SQL = [
         SELECT *
         FROM base
         WHERE entreprise IS NOT NULL
-           OR pays IS NOT NULL
-           OR date_debut IS NOT NULL
-           OR date_fin IS NOT NULL;
+          AND pays IS NOT NULL
+          AND date_debut IS NOT NULL
+          AND date_fin IS NOT NULL
     """, "dimension_info_stage"),
 
 ]
@@ -241,7 +241,7 @@ def main():
 
         for name in ["dimension_matiere", "fait_annee"]:
             cur.execute(f"SELECT COUNT(*) FROM dwh.{name};")
-            print(f"   ✅ {name}: {cur.fetchone()[0]} lignes")
+            print(f"   {name}: {cur.fetchone()[0]} lignes")
 
         print("DWH reconstruit avec succès.")
 
